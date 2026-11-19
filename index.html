@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vườn từ vựng IELTS Speaking</title>
+<style>
+:root{--bg:#f6f8f2;--card:#fff;--tx:#1e2420;--mu:#68736b;--ln:#e0e6dc;--g0:#f2b84b;--g1:#74c69d;--g2:#1b8a5a;--ac:#2f7d5b;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141816;--card:#1e2420;--tx:#e9eee9;--mu:#9aa79e;--ln:#34403a;--g0:#f4c25b;--g1:#6fcf9d;--g2:#35c17f;--ac:#4fc48c}}
+:root[data-theme="dark"]{--bg:#141816;--card:#1e2420;--tx:#e9eee9;--mu:#9aa79e;--ln:#34403a;--g0:#f4c25b;--g1:#6fcf9d;--g2:#35c17f;--ac:#4fc48c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:960px;margin:0 auto;padding:14px 14px 56px}
+.hero{background:linear-gradient(120deg,#2f7d5b,#4aa37a 55%,#d9a441);color:#fff;border-radius:18px;padding:20px}
+.hero h1{margin:0;font-size:1.45rem}.hero p{margin:4px 0 0;opacity:.95}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px;margin-top:12px}
+.kpi div{background:rgba(255,255,255,.2);border-radius:12px;padding:8px 12px}.kpi b{font-size:1.5rem;display:block;line-height:1.2}
+h2{font-size:1.1rem;margin:24px 0 8px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:14px}
+.mu{color:var(--mu);font-size:.85rem}
+form{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+form .w{grid-column:1/-1}
+input,select,textarea,button{font:inherit;color:var(--tx)}
+input,select{width:100%;padding:8px 10px;border:1px solid var(--ln);border-radius:9px;background:var(--bg)}
+.btn{background:var(--ac);color:#fff;border:0;border-radius:9px;padding:9px 16px;cursor:pointer;font-weight:700}
+.btn.s{background:var(--card);color:var(--tx);border:1px solid var(--ln);font-weight:500;padding:6px 12px}
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.tp{cursor:pointer;text-align:center;transition:transform .15s}.tp:hover{transform:translateY(-2px)}.tp.on{outline:3px solid var(--ac)}
+.tp svg{width:56px;height:56px}.tp b{display:block}
+.dots{display:flex;flex-wrap:wrap;gap:3px;justify-content:center;margin-top:6px}
+.dot{width:11px;height:11px;border-radius:50%}
+.s0{background:var(--g0)}.s1{background:var(--g1)}.s2{background:var(--g2)}
+.legend span{display:inline-flex;align-items:center;gap:5px;margin-right:12px;font-size:.85rem}
+.item{display:grid;grid-template-columns:34px 1fr auto;gap:10px;padding:10px 0;border-bottom:1px dashed var(--ln)}
+.item:last-child{border:0}
+.pl{font-size:1.5rem;cursor:pointer;background:none;border:0;padding:0}
+.item b{font-size:1.02rem}.item i{color:var(--mu)}
+.tag{font-size:.72rem;background:var(--ln);border-radius:99px;padding:1px 8px}
+.heat{display:grid;grid-auto-flow:column;grid-template-rows:repeat(7,14px);gap:3px;overflow-x:auto;padding-bottom:4px}
+.heat i{width:14px;height:14px;border-radius:3px;background:var(--ln)}
+.rv{background:linear-gradient(135deg,var(--card),var(--bg))}
+.rv .r{padding:8px 0;border-bottom:1px dashed var(--ln)}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+#msg{font-size:.85rem;color:var(--mu);margin-top:6px}
+.hab{display:grid;grid-template-columns:repeat(30,16px);gap:3px}@media (max-width:620px){.hab{grid-template-columns:repeat(15,16px)}}.hab button{width:16px;height:16px;border:0;border-radius:4px;background:var(--ln);font-size:0;cursor:pointer;padding:0}.hab button.on{background:var(--g2);color:#fff;border-color:var(--g2);font-weight:700}.hab button.td{outline:2px solid var(--ac);outline-offset:1px}.hab button.fu{opacity:.35;cursor:default}
+.opts{display:grid;gap:8px;margin-top:10px}.opt{text-align:left}.chipon{background:var(--ac)!important;color:#fff!important;border-color:var(--ac)!important}
+</style><script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script></head><body><main>
+<div class="hero"><h1>🌱 Vườn từ vựng IELTS Speaking</h1><p>Mỗi cụm là một cây giống. Học (🌱) → hiểu (🌿) → dùng được khi nói (🌳).</p>
+<div class="kpi"><div><b id="k1">0</b>cụm đã gieo</div><div><b id="k2">0</b>đã dùng khi nói</div><div><b id="k3">0</b>chủ đề</div><div><b id="k4">0</b>ngày liên tiếp</div></div></div>
+
+<h2>➕ Thêm từ mới</h2>
+<div class="card"><form id="f">
+<input id="p" placeholder="Cụm/từ (vd: fall into … by chance)" required>
+<input id="m" placeholder="Nghĩa (vd: tình cờ vào nghề)" required>
+<input id="t" list="tl" placeholder="Chủ đề (vd: Work)" required><datalist id="tl"></datalist>
+<input id="s" placeholder="Câu của chính bạn (quan trọng nhất)">
+<div class="w"><button class="btn" type="submit">Gieo hạt 🌱</button> <button class="btn" type="button" id="xls">📥 Xuất Excel (.xlsx)</button> <button class="btn" type="button" id="imp">📤 Nhập Excel</button><input type="file" id="fi" accept=".xlsx,.xls,.csv" hidden> <button class="btn s" type="button" id="csv">Tải CSV</button><div id="msg"></div></div>
+</form></div>
+
+<div><h2>🗺 Chủ đề đã học <span class="mu" id="tcnt"></span></h2>
+<div class="topics" id="topics"></div>
+<div class="legend card" style="margin-top:10px"><span><i class="dot s0"></i>🌱 mới học</span><span><i class="dot s1"></i>🌿 hiểu rồi</span><span><i class="dot s2"></i>🌳 đã dùng khi nói</span></div></div>
+
+<h2>🔥 Nhịp học 90 ngày <span class="mu" id="habsum"></span></h2>
+<div class="card"><div id="habg"></div></div>
+
+
+<div hidden><h2>📖 Đọc lại hôm nay <span class="mu">(không phải kiểm tra, chỉ gặp lại)</span></h2>
+<div class="card rv" id="rv"></div></div>
+
+<div hidden><h2>🧪 Test ghi nhớ</h2>
+<div class="card" id="tst"></div></div>
+
+<h2>📚 Sổ từ <span class="mu" id="flt"></span></h2>
+<div class="bar"><input id="q" placeholder="Tìm cụm…" style="max-width:260px"><button class="btn s" id="all">Tất cả chủ đề</button></div>
+<div class="bar" id="tchips"></div>
+<div class="card" id="list"></div>
+</main>
+<script>
+const $=i=>document.getElementById(i);
+const COL=["#e8590c","#1c7ed6","#7048e8","#0ca678","#d6336c","#f08c00","#3b5bdb","#2b8a3e"];
+const SEED=[["be in charge of","phụ trách","I’m in charge of launching new products."],["conduct market research","nghiên cứu thị trường","We conduct market research before every launch."],["analyse sell-out data","phân tích dữ liệu bán ra","I analyse sell-out data to spot trends."],["collaborate with","phối hợp với","I collaborate with sales and R&D teams."],["a demanding job","công việc đòi hỏi cao","It’s demanding, but rewarding."],["tight deadlines","deadline gấp","Tight deadlines are part of the job."],["a steep learning curve","học rất nhanh, vất vả","AI tools came with a steep learning curve."],["handle the pressure","xử lý áp lực","I’ve learnt to handle the pressure."],["fall into … by chance","tình cờ vào nghề","I fell into marketing by chance."],["end up + V-ing","rốt cuộc lại…","I ended up loving it."],["climb the career ladder","thăng tiến","I’d like to climb the career ladder."],["work-life balance","cân bằng công việc – đời sống","I want a better work-life balance."]];
+let items=[],habit={},tests=[],tq=null,filter="",ref=null,saving=false,dirty=false;
+const day=d=>{d=new Date(d);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
+const today=()=>day(new Date());
+const esc=s=>String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+async function init(){
+ try{const [db,user]=await Promise.all([claude.use("db"),claude.use("user")]);
+  if(db&&user){const id=await user.id();if(id){ref=db.collection("data/users/"+id).doc("vocab");const s=await ref.get();if(s.exists){const D=s.data();items=D.items||[];habit=D.habit||{};tests=D.tests||[]}}}}catch(e){ref=null}
+ if(!ref){try{const D=JSON.parse(localStorage.getItem('vg')||'{}');items=Array.isArray(D)?D:(D.items||[]);habit=D.habit||{};tests=D.tests||[]}catch(e){}$("msg").textContent="Đang lưu tạm trong trình duyệt này."}
+ render();
+}
+async function save(){
+ render();dirty=true;if(saving)return;saving=true;
+ while(dirty){dirty=false;try{if(ref)await ref.set({items,habit,tests});else localStorage.setItem('vg',JSON.stringify({items,habit,tests}))}catch(e){$("msg").textContent="Chưa lưu được, thử lại sau."}}
+ saving=false;
+}
+$("f").onsubmit=e=>{e.preventDefault();items.unshift({id:Date.now()+""+Math.random().toString(36).slice(2,5),t:$("t").value.trim(),p:$("p").value.trim(),m:$("m").value.trim(),s:$("s").value.trim(),st:0,d:today()});["p","m","s"].forEach(i=>$(i).value="");$("p").focus();save()};
+
+$("all").onclick=()=>{filter="";render()};$("q").oninput=render;
+$("csv").onclick=async()=>{const d=await claude.use("downloads");const body="Chủ đề,Cụm,Nghĩa,Câu của tôi,Mức,Ngày\n"+items.map(i=>[i.t,i.p,i.m,i.s,["mới","hiểu","đã dùng"][i.st],i.d].map(v=>'"'+String(v||"").replace(/"/g,'""')+'"').join(",")).join("\n");
+ if(d){try{await d.save({filename:"vocab.csv",data:"\ufeff"+body})}catch(e){}}else $("msg").textContent="Tính năng tải chưa khả dụng ở đây."};
+$("xls").onclick=async()=>{
+ if(!items.length){$("msg").textContent="Chưa có từ nào để xuất.";return}
+ if(typeof XLSX==="undefined"){$("msg").textContent="Không tải được thư viện Excel, hãy dùng nút Tải CSV (Excel mở được).";return}
+ const d=await claude.use("downloads");if(!d){$("msg").textContent="Tính năng tải chưa khả dụng ở đây.";return}
+ const head=["Chủ đề","Cụm","Nghĩa","Câu của tôi","Mức","Ngày thêm"];
+ const row=i=>[i.t,i.p,i.m,i.s||"",["Mới học","Đã hiểu","Đã dùng khi nói"][i.st],i.d];
+ const mk=a=>{const ws=XLSX.utils.aoa_to_sheet([head,...a.map(row)]);ws["!cols"]=[{wch:14},{wch:30},{wch:30},{wch:50},{wch:16},{wch:12}];return ws};
+ const wb=XLSX.utils.book_new(),used=new Set(["Tất cả"]);
+ XLSX.utils.book_append_sheet(wb,mk(items),"Tất cả");
+ [...new Set(items.map(i=>i.t))].forEach(t=>{const n=t.replace(/[\\\/?*\[\]:]/g,"").slice(0,26)||"Chủ đề";let k=n,c=2;while(used.has(k))k=n+"_"+c++;used.add(k);XLSX.utils.book_append_sheet(wb,mk(items.filter(i=>i.t===t)),k)});
+ try{await d.save({filename:"vuon-tu-vung-"+today()+".xlsx",data:XLSX.write(wb,{type:"array",bookType:"xlsx"})});$("msg").textContent="Đã xuất "+items.length+" cụm ra Excel."}
+ catch(e){$("msg").textContent="Chưa lưu được file .xlsx ("+(e.code||"lỗi")+"). Hãy dùng Tải CSV."}
+};
+$('imp').onclick=()=>$('fi').click();
+$('fi').onchange=async e=>{const f=e.target.files[0];if(!f)return;if(typeof XLSX==='undefined'){$('msg').textContent='Không tải được thư viện Excel.';return}try{const wb=XLSX.read(await f.arrayBuffer(),{type:'array'});const rows=XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,defval:''});const lv={'mới học':0,'đã hiểu':1,'đã dùng khi nói':2};const key=new Set(items.map(i=>(i.t+'|'+i.p).toLowerCase()));let add=0,skip=0;rows.slice(1).forEach(r=>{const [t,p,m,s,l,d]=r.map(x=>String(x).trim());const k=(t+'|'+p).toLowerCase();if(!t||!p||key.has(k)){skip++;return}key.add(k);items.push({id:'i'+Date.now()+add+Math.random().toString(36).slice(2,5),t,p,m,s,st:lv[l.toLowerCase()]??0,d:/^\d{4}-\d{2}-\d{2}$/.test(d)?d:today()});add++});if(add)save();$('msg').textContent='Đã nhập '+add+' cụm mới, bỏ qua '+skip+' dòng (trùng hoặc thiếu chủ đề/cụm).'}catch(err){$('msg').textContent='Không đọc được file này.'}e.target.value=''};
+function renderExtras(cnt){const s=new Date(2026,10,8),t=today();const ph=[['Tháng 1 · Xây nền (8/11 – 7/12)','Part 1, cụm mở câu, chủ đề đời sống, ≥5 cụm/ngày'],['Tháng 2 · Mở rộng (8/12 – 6/1)','Part 2, chủ đề công việc/xã hội, business cơ bản'],['Tháng 3 · Hoàn thiện (7/1 – 5/2)','Part 3, mock mỗi tuần, ôn lại mọi chủ đề']];let h='',tot=Object.values(habit).filter(Boolean).length;h+=`<div class='hab'>`;for(let k=0;k<90;k++){const d=new Date(s);d.setDate(s.getDate()+k);const ds=day(d);h+=`<button class='${habit[ds]?'on':''} ${ds===t?'td':''} ${ds>t?'fu':''}' data-d='${ds}' title='${ds} · ${cnt[ds]||0} cụm mới'>${d.getDate()}</button>`}h+='</div>';$('habg').innerHTML=h;$('habsum').textContent='· '+tot+'/90 ngày đã học';if(!tq)renderTest()}
+$('habg').onclick=e=>{const b=e.target.closest('button');if(!b||b.dataset.d>today())return;habit[b.dataset.d]=!habit[b.dataset.d];save()};
+function renderTest(){const box=$('tst');if(!tq){const last=tests.slice(-5).reverse().map(x=>`<span class='tag'>${x.d}: ${x.score}/${x.n}</span>`).join(' ');box.innerHTML=items.filter(i=>i.m).length<4?`<span class='mu'>Cần ít nhất 4 cụm (có nghĩa) trong sổ để làm test.</span>`:`<button class='btn' data-a='start'>Bắt đầu test (10 câu)</button><div class='mu' style='margin-top:6px'>Mỗi câu hiện nghĩa tiếng Việt. Hãy nói to cụm tiếng Anh trước, rồi chọn đáp án.</div>${last?`<div style='margin-top:6px'>Gần đây: ${last}</div>`:''}`;return}if(tq.i>=tq.q.length){box.innerHTML=`<b style='font-size:1.2rem'>Kết quả: ${tq.sc}/${tq.q.length}</b>${tq.miss.length?`<div style='margin-top:6px'>Cần gặp lại:${tq.miss.map(w=>`<div>• <b>${esc(w.p)}</b> · ${esc(w.m)}</div>`).join('')}</div><div class='bar'><button class='btn s' data-a='demote'>Đưa các cụm sai về 🌱</button></div>`:`<div>Đúng hết! 🎉</div>`}<div class='bar'><button class='btn' data-a='start'>Làm lại</button><button class='btn s' data-a='end'>Đóng</button></div>`;return}const w=tq.q[tq.i],ch=tq.opts[tq.i];box.innerHTML=`<div class='mu'>Câu ${tq.i+1}/${tq.q.length} · chủ đề ${esc(w.t)}</div><div style='font-size:1.15rem;margin:6px 0'><b>${esc(w.m)}</b></div><div class='mu'>Nói to cụm tiếng Anh trước, rồi chọn.</div><div class='opts'>${ch.map(o=>`<button class='btn s opt' data-a='ans' data-id='${o.id}'>${esc(o.p)}</button>`).join('')}</div><div id='fb'></div>`}
+$('tst').onclick=e=>{const b=e.target.closest('button');if(!b)return;const a=b.dataset.a;if(a==='start'){const q=items.filter(i=>i.m).sort(()=>Math.random()-.5).slice(0,10);tq={q,i:0,sc:0,miss:[],locked:false,opts:q.map(w=>[w,...items.filter(x=>x.id!==w.id&&x.p!==w.p).sort(()=>Math.random()-.5).slice(0,3)].sort(()=>Math.random()-.5))};renderTest()}else if(a==='ans'){if(tq.locked)return;tq.locked=true;const w=tq.q[tq.i],ok=b.dataset.id===w.id;if(ok)tq.sc++;else tq.miss.push(w);document.querySelectorAll('.opt').forEach(o=>{if(o.dataset.id===w.id){o.style.background='var(--g2)';o.style.color='#fff'}});if(!ok){b.style.background='#c92a2a';b.style.color='#fff'}$('fb').innerHTML=`<div style='margin-top:8px'>${ok?'✅ Đúng':'❌ Chưa đúng'}: <b>${esc(w.p)}</b>${w.s?`<br><i>“${esc(w.s)}”</i>`:''}</div><button class='btn' data-a='next' style='margin-top:8px'>${tq.i+1>=tq.q.length?'Xem kết quả':'Câu tiếp'}</button>`}else if(a==='next'){tq.locked=false;tq.i++;if(tq.i>=tq.q.length){tests.push({d:today(),score:tq.sc,n:tq.q.length});tests=tests.slice(-30);save()}renderTest()}else if(a==='demote'){tq.miss.forEach(w=>{const x=items.find(i=>i.id===w.id);if(x)x.st=0});save();b.textContent='Đã đưa về 🌱';b.disabled=true}else if(a==='end'){tq=null;renderTest()}};
+function streak(){const ds=new Set(items.map(i=>i.d));let n=0,d=new Date();if(!ds.has(day(d)))d.setDate(d.getDate()-1);while(ds.has(day(d))){n++;d.setDate(d.getDate()-1)}return n}
+function ring(p,c){const r=34,L=2*Math.PI*r;return `<svg viewBox="0 0 84 84"><circle cx="42" cy="42" r="${r}" fill="none" stroke="var(--ln)" stroke-width="9"/><circle cx="42" cy="42" r="${r}" fill="none" stroke="${c}" stroke-width="9" stroke-linecap="round" stroke-dasharray="${L*p} ${L}" transform="rotate(-90 42 42)"/><text x="42" y="48" text-anchor="middle" font-size="18" font-weight="800" fill="var(--tx)">${Math.round(p*100)}%</text></svg>`}
+function render(){
+ const tps=[...new Set(items.map(i=>i.t))];
+ $("k1").textContent=items.length;$("k2").textContent=items.filter(i=>i.st==2).length;$("k3").textContent=tps.length;$("tcnt").textContent=tps.length?"· "+tps.length+" chủ đề · bấm để lọc":"";$("k4").textContent=streak();
+ $("tl").innerHTML=tps.map(t=>`<option value="${esc(t)}">`).join("");
+ $('tchips').innerHTML=tps.map(t=>`<button class='btn s ${filter===t?'chipon':''}' data-t='${esc(t)}'>${esc(t)} · ${items.filter(i=>i.t===t).length}</button>`).join('');document.querySelectorAll('#tchips button').forEach(b=>b.onclick=()=>{filter=b.dataset.t;render()});
+ $("topics").innerHTML=tps.length?tps.map((t,k)=>{const a=items.filter(i=>i.t===t),u=a.filter(i=>i.st==2).length;return `<div class="card tp ${filter===t?"on":""}" data-t="${esc(t)}">${ring(u/a.length,COL[k%8])}<b>${esc(t)}</b><span class="mu">${a.length} cụm · ${u} đã dùng</span><div class="dots">${a.map(i=>`<i class="dot s${i.st}"></i>`).join("")}</div></div>`}).join(""):`<div class="card mu">Chưa có chủ đề nào. Thêm cụm đầu tiên ở form phía trên.</div>`;
+ document.querySelectorAll(".tp").forEach(e=>e.onclick=()=>{filter=e.dataset.t;render()});
+ const cnt={};items.forEach(i=>cnt[i.d]=(cnt[i.d]||0)+1);renderExtras(cnt);
+ 
+ 
+ const old=items.filter(i=>i.st<2).sort(()=>Math.random()-.5).slice(0,4);
+ $("rv").innerHTML=old.length?old.map(i=>`<div class="r"><b>${esc(i.p)}</b> <span class="mu">· ${esc(i.m)}</span>${i.s?`<br><i>“${esc(i.s)}”</i>`:""}</div>`).join("")+`<div class="mu" style="margin-top:6px">Đọc to 2 lần, rồi nói một câu mới về cuộc sống của bạn dùng cụm đó. Dùng xong thì bấm cây trong sổ để lên 🌿/🌳.</div>`:`<span class="mu">Mọi cụm đã lên 🌳, hoặc sổ đang trống. Thêm từ mới nhé.</span>`;
+ const q=$("q").value.toLowerCase(),L=items.filter(i=>(!filter||i.t===filter)&&(!q||(i.p+i.m+i.s).toLowerCase().includes(q)));
+ $("flt").textContent=filter?"· "+filter:"";
+ $("list").innerHTML=L.length?L.map(i=>`<div class="item"><button class="pl" data-id="${i.id}" title="Đổi mức">${["🌱","🌿","🌳"][i.st]}</button><div><b>${esc(i.p)}</b> <span class="tag">${esc(i.t)}</span><br>${esc(i.m)}${i.s?`<br><i>“${esc(i.s)}”</i>`:""}</div><button class="btn s" data-del="${i.id}" title="Xóa">✕</button></div>`).join(""):`<span class="mu">Không có kết quả.</span>`;
+ document.querySelectorAll(".pl").forEach(b=>b.onclick=()=>{const i=items.find(x=>x.id===b.dataset.id);i.st=(i.st+1)%3;save()});
+ document.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{if(confirm("Xóa cụm này?")){items=items.filter(x=>x.id!==b.dataset.del);save()}});
+}
+render();init();
+</script></body></html>
