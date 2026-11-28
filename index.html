@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vườn từ vựng IELTS Speaking</title>
+<style>
+:root{--bg:#f3f6f3;--card:#fff;--tx:#18261f;--mu:#6b7a70;--bd:#e3ebe5;--ac:#3b7f5b;--ac2:#e6f2ea;--gr:#3b7f5b;--or:#f59e0b;--sh:0 4px 20px rgba(30,40,80,.07);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1913;--card:#17241c;--tx:#e6f0ea;--mu:#8fa398;--bd:#26372d;--ac:#6fcf9a;--ac2:#1f3328;--gr:#6fcf9a;--sh:none}}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 Inter,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:720px;margin:0 auto;padding:16px 16px 60px}
+header{display:flex;align-items:center;justify-content:space-between;margin:4px 0 16px}
+.logo{display:flex;gap:10px;align-items:center}.logo i{font-style:normal;font-size:22px;width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,var(--gr),var(--ac));display:grid;place-items:center}
+.logo b{font-size:18px;display:block;line-height:1.2}.logo small{color:var(--mu);font-size:12px}
+.fire{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:6px 14px;font-weight:700;box-shadow:var(--sh)}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:16px;margin-bottom:14px;box-shadow:var(--sh)}
+.add{background:linear-gradient(135deg,var(--ac2),var(--card))}
+.add h2{margin:0 0 10px;font-size:15px}
+input,textarea{width:100%;font:inherit;color:var(--tx);background:var(--card);border:1.5px solid var(--bd);border-radius:12px;padding:11px 14px;outline:0;transition:border .15s}
+input:focus,textarea:focus{border-color:var(--ac)}
+.ar{display:grid;grid-template-columns:1fr 1fr auto;gap:8px}
+.det{display:none;margin-top:8px;gap:8px;grid-template-columns:1fr;}.det.on{display:grid}
+.btn{background:var(--ac);color:#fff;border:0;border-radius:12px;padding:0 20px;font:inherit;font-weight:600;cursor:pointer;min-height:44px}
+.btn.g{background:var(--ac2);color:var(--ac)}.btn:active{transform:scale(.97)}
+.lk{background:none;border:0;color:var(--ac);font:inherit;font-size:13px;cursor:pointer;padding:8px 0 0}
+.hero{display:flex;gap:16px;align-items:center}
+.ring{flex:none;width:92px;height:92px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--gr) calc(var(--p)*1%),var(--bd) 0)}
+.ring div{width:72px;height:72px;border-radius:50%;background:var(--card);display:grid;place-items:center;text-align:center;font-weight:800;font-size:20px;line-height:1.1}
+.ring small{display:block;font-size:10px;font-weight:500;color:var(--mu)}
+.tl{flex:1;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.tile{border:1.5px solid var(--bd);background:var(--card);color:var(--tx);border-radius:14px;padding:8px;cursor:pointer;font:inherit;text-align:center}
+.tile b{display:block;font-size:20px}.tile span{font-size:11px;color:var(--mu)}.tile.on{border-color:var(--ac);background:var(--ac2)}
+.rv{width:100%;margin-top:14px;min-height:48px;font-size:16px;background:linear-gradient(135deg,var(--gr),var(--ac))}
+.row{display:flex;gap:8px;overflow-x:auto;padding:2px 0 8px;scrollbar-width:none}
+.chip{flex:none;border:1.5px solid var(--bd);background:var(--card);color:var(--tx);border-radius:20px;padding:6px 14px;cursor:pointer;font:inherit;font-size:13px;white-space:nowrap}
+.chip.on{background:var(--ac);border-color:var(--ac);color:#fff}.chip s{text-decoration:none;opacity:.6;margin-left:4px}
+.sec{display:flex;justify-content:space-between;align-items:center;margin:18px 4px 8px;font-weight:700}.sec span{font-weight:400;color:var(--mu);font-size:13px}
+.it{display:flex;gap:12px;background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:14px;margin-bottom:10px;box-shadow:var(--sh)}
+.bd{flex:1;min-width:0}.bd b{font-size:17px}.tp{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;color:var(--ac);background:var(--ac2);border-radius:6px;padding:1px 7px;margin-left:8px;vertical-align:2px}
+.bd p{margin:2px 0 0}.bd em{display:block;color:var(--mu);font-size:13px;margin-top:4px;border-left:3px solid var(--bd);padding-left:8px}
+.acts{display:flex;flex-direction:column;gap:6px;align-items:flex-end}
+.seg{display:flex;background:var(--bg);border-radius:20px;padding:2px}
+.seg button{border:0;background:none;border-radius:18px;font-size:15px;padding:3px 8px;cursor:pointer;opacity:.4}.seg button.on{opacity:1;background:var(--card);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.ic{border:0;background:none;color:var(--mu);cursor:pointer;font-size:15px;padding:2px 6px;border-radius:8px}.ic:hover{background:var(--bg)}
+.sb{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:6px 0}
+.mu{color:var(--mu);font-size:13px}
+details{margin-top:20px}summary{cursor:pointer;color:var(--mu);font-size:13px;margin-bottom:8px}
+.mo{position:fixed;inset:0;background:rgba(10,14,30,.6);display:none;align-items:center;justify-content:center;padding:16px;z-index:20}.mo.on{display:flex}
+.fc{background:var(--card);border-radius:24px;width:100%;max-width:420px;padding:22px;text-align:center}
+.fcb{min-height:190px;display:flex;flex-direction:column;justify-content:center;gap:8px;cursor:pointer;border-radius:18px;background:var(--bg);padding:16px;margin:12px 0}
+.fcb b{font-size:28px}.fcb .a{display:none}.fcb.fl .a{display:block}.fcb.fl .q{display:none}
+.fb{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.fb .btn{padding:0 4px;font-size:13px}
+.pg{height:6px;background:var(--bd);border-radius:3px;overflow:hidden}.pg div{height:100%;background:var(--gr);transition:width .3s}
+.to{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 18px;border-radius:20px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:30}.to.on{opacity:1}
+.bd{cursor:pointer}.ef label{display:block;font-size:12px;font-weight:600;color:var(--mu);margin-bottom:10px}.ef input,.ef textarea{margin-top:4px}.ef .seg{margin-top:4px;display:inline-flex}.fb2{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px}
+@media(max-width:520px){.ar{grid-template-columns:1fr}.ar .btn{min-height:46px}}
+.gh{background:linear-gradient(135deg,#3b7f5b,#74b992);color:#fff;border-radius:28px;padding:22px;margin-bottom:14px;box-shadow:0 12px 30px rgba(59,127,91,.25)}
+.ht{font-size:22px;font-weight:800}.ht small{font-size:14px;font-weight:500;opacity:.9;margin-left:6px}
+.hs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0}.hs div{background:rgba(255,255,255,.18);border-radius:18px;padding:12px 16px}.hs b{display:block;font-size:30px;line-height:1.2}.hs span{font-size:13px;opacity:.92}
+.hb{height:10px;border-radius:5px;background:rgba(255,255,255,.25);overflow:hidden;display:flex}.hb i{display:block;height:100%;transition:width .4s}#b2{background:#fff}#b1{background:#f9d77e}
+.hf{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px}
+.hl{font-size:14px;display:flex;flex-wrap:wrap;gap:2px 4px;align-items:center}.hl button{background:none;border:0;color:#fff;font:inherit;cursor:pointer;padding:3px 8px;border-radius:10px}.hl button.on{background:rgba(255,255,255,.28)}
+.rvb{background:#fff;color:#2f7d55;border:0;border-radius:14px;padding:9px 18px;font:inherit;font-weight:700;cursor:pointer}.rvb:disabled{opacity:.6}
+.dcard h2{margin:0 0 14px;font-size:15px;display:flex;justify-content:space-between;align-items:baseline}.dcard h2 span{font-weight:400;font-size:12px}
+.dn{display:flex;gap:22px;align-items:center;flex-wrap:wrap}.donut{flex:none;width:150px;height:150px;border-radius:50%;position:relative}.donut:after{content:"";position:absolute;inset:34px;border-radius:50%;background:var(--card)}
+.dc{position:absolute;inset:0;display:grid;place-content:center;text-align:center;z-index:1}.dc b{font-size:24px;line-height:1.1}.dc span{font-size:12px;color:var(--mu)}
+.lgs{flex:1;min-width:220px;display:grid;gap:2px}.lgd{display:flex;align-items:center;gap:8px;border:0;background:none;color:var(--tx);font:inherit;font-size:13px;padding:5px 8px;border-radius:10px;cursor:pointer;text-align:left;width:100%}
+.lgd s{width:11px;height:11px;border-radius:50%;flex:none}.lgd em{font-style:normal;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.lgd span{color:var(--mu)}.lgd b{width:40px;text-align:right}.lgd.on{background:var(--ac2)}
+@media(max-width:520px){.hs{grid-template-columns:repeat(2,1fr)}.ht small{display:block;margin:2px 0 0}}
+</style></head><body><div class="w">
+<div class="gh"><div class="ht">🌱 Vườn từ vựng <small>IELTS Speaking · 🌱 mới học → 🌿 hiểu rồi → 🌳 dùng khi nói</small></div><div class="hs" id="hs"></div><div class="hb"><i id="b2"></i><i id="b1"></i></div><div class="hf"><div class="hl" id="hl"></div><button class="rvb" id="rv">▶ Ôn nhanh</button></div></div>
+
+<div class="c add"><h2>✍️ Gieo từ mới</h2>
+<div class="ar"><input id="nw" placeholder="Từ / cụm từ (vd: fall into … by chance)" autocomplete="off"><input id="nm" placeholder="Nghĩa tiếng Việt"><button class="btn" id="add">Gieo 🌱</button></div>
+<div class="det" id="det"><input id="nt" placeholder="Chủ đề (vd: EDUCATION)" list="tl" autocomplete="off"><datalist id="tl"></datalist><textarea id="ne" rows="2" placeholder="Câu của chính bạn — quan trọng nhất để nói tự nhiên"></textarea></div>
+<button class="lk" id="more">＋ Thêm chủ đề &amp; câu ví dụ</button></div>
+
+<div class="c dcard"><h2>Tỷ trọng từ vựng theo chủ đề <span class="mu">bấm để lọc</span></h2><div class="dn"><div class="donut" id="donut"><div class="dc" id="dc"></div></div><div class="lgs" id="lgs"></div></div></div>
+
+<div class="sec">Chủ đề <span id="tc"></span></div><div class="row" id="topics"></div>
+<div class="sb"><input id="q" placeholder="🔍 Tìm cụm, nghĩa, câu ví dụ…"></div>
+<div class="sec">Sổ từ <span><button class="lk" id="rt" style="display:none;padding:0;margin-right:10px">✏️ Đổi tên chủ đề</button><span id="cnt"></span></span></div><div id="list"></div>
+
+<details><summary>📥 Nhập / 📤 Xuất hàng loạt</summary><div class="c">
+<div class="mu" style="margin-bottom:8px">Mỗi dòng: <code>từ | chủ đề | nghĩa | câu ví dụ</code> (dán từ Excel cũng được).</div>
+<textarea id="bulk" rows="5"></textarea><div style="display:flex;gap:8px;margin-top:8px"><button class="btn" id="imp">Nhập</button><button class="btn g" id="exp">Xuất &amp; sao chép</button></div>
+<div class="mu" style="margin-top:10px">Lưu trong trình duyệt này · Nhịp học 90 ngày: <b id="d90"></b></div></div></details>
+</div>
+
+<div class="mo" id="mo"><div class="fc"><div class="mu" id="rp"></div><div class="pg"><div id="rg" style="width:0"></div></div>
+<div class="fcb" id="fcb"><div class="q"><b id="fw"></b><div class="mu">Chạm để lật thẻ · 🔊 nghe phát âm</div></div><div class="a"><div id="fm" style="font-size:18px"></div><em class="mu" id="fe"></em></div></div>
+<div class="fb"><button class="btn g" data-r="0">Chưa nhớ</button><button class="btn g" data-r="1">🌿 Hiểu rồi</button><button class="btn" data-r="2">🌳 Dùng được</button></div>
+<button class="lk" id="cl">Đóng</button></div></div><div class="mo" id="em"><div class="fc" style="text-align:left"><h3 style="margin:0 0 14px">✏️ Sửa từ vựng</h3><div class="ef"><label>Từ / cụm từ<input id="ew"></label><label>Nghĩa<input id="en"></label><label>Chủ đề<input id="et" list="tl" autocomplete="off"></label><label>Câu ví dụ của bạn<textarea id="ee" rows="3"></textarea></label><label>Mức<br><span class="seg" id="el"></span></label></div><div class="fb2"><button class="btn" id="es">Lưu thay đổi</button><button class="btn g" id="ec">Hủy</button></div></div></div><div class="to" id="to"></div>
+
+<script>
+var SEED=[
+["tertiary", "EDUCATION", "bậc giáo dục đại học, cao đẳng", "She works at a tertiary institution.", 0],
+["succinct", "LANGUAGE & COMMUNICATION", "ngắn gọn, súc tích", "Keep your letter succinct and to the point.", 0],
+["spatial", "SPACE", "thuộc không gian", "GPS and satellite maps rely on spatial data to show our exact location. → GPS và bản đồ vệ tinh dựa trên dữ liệu không gian để hiển thị vị trí chính xác của chúng ta.", 0],
+["savant", "AWARDS & SCIENCE", "Scholar, genius: người có tài năng, nhà thông thái, học giả uyên bác", "Schools should support gifted children, including young maths savants, with suitable challenges. → Trường học nên hỗ trợ trẻ năng khiếu, kể cả những thần đồng toán học, bằng những thử thách phù hợp.", 0],
+["roundabout", "LANGUAGE & COMMUNICATION", "vòng vo, không trực tiếp (cách nói, con đường đi) | vòng xuyến (đường)", "He asked for a pay rise in a roundabout way instead of saying it directly. → Anh ấy xin tăng lương theo kiểu vòng vo thay vì nói thẳng.", 0],
+["rhetoric", "BUSINESS", "nghệ thuật hùng biện, nghệ thuật dùng ngôn từ để thuyết phục | lời hoa mỹ nhưng rỗng tuếch 🔍 Tìm cụm, nghĩa, câu ví dụ…", "The president's speech was full of rhetoric, but it offered no concrete plan. → Bài phát biểu của tổng thống đầy lời lẽ hoa mỹ nhưng không có kế hoạch cụ thể.", 0],
+["remark", "POLITICS & SECURITY", "lời nhận xét; nhận xét", "The politician's offensive remark about immigrants caused public anger. → Lời nhận xét xúc phạm của chính trị gia về người nhập cư gây ra sự phẫn nộ trong công chúng.", 0],
+["prestigious", "AWARDS & SCIENCE", "renowned, reputable, high-ranking, elite: danh giá, uy tín", "She studied at a prestigious university.", 0],
+["pictogram", "TRANSPORTATION", "ký hiệu hình ảnh, biểu tượng đồ họa thể hiện một vật hoặc ý nghĩa bằng hình vẽ", "Airports use pictograms so that travellers who do not speak the local language can find their way. → Sân bay dùng ký hiệu hình ảnh để hành khách không biết tiếng địa phương vẫn tìm được đường.", 0],
+["orator", "POLITICS & SECURITY", "Rhetorician = nhà hùng biện, diện giả giỏi", "Barack Obama is widely regarded as a gifted orator. → Barack Obama được xem là một nhà hùng biện tài năng.", 0],
+["loaded", "LANGUAGE & COMMUNICATION", "mang tính gài bẫy, hàm ý ngầm (a loaded question) | chất đầy, mang nặng | rất giàu, rủng rỉnh tiền bạc", "Politicians often dodge loaded questions from reporters. → Chính trị gia thường né những câu hỏi gài bẫy của phóng viên.", 0],
+["Jargon", "HEALTH", "thuật ngữ chuyên ngành", "Doctors should avoid medical jargon when speaking to patients so that they can make informed decisions about their treatment. → Bác sĩ nên tránh dùng thuật ngữ y khoa khi nói chuyện với bệnh nhân để họ có thể đưa ra quyết định có hiểu biết về việc điều trị.", 0],
+["instill", "EDUCATION", "khắc sâu, truyền dần", "Schools should instill a love of reading in children from an early age by making libraries engaging and accessible. → Trường học nên khắc sâu niềm yêu thích đọc sách ở trẻ từ nhỏ bằng cách làm cho thư viện hấp dẫn và dễ tiếp cận.", 0],
+["Insinuate", "LANGUAGE & COMMUNICATION", "nói bóng gió | khéo léo len lỏi", "Advertisements sometimes insinuate that people who do not own the latest gadgets are less successful, which puts pressure on consumers. → Quảng cáo đôi khi ám chỉ rằng những ai không sở hữu thiết bị mới nhất thì kém thành công, tạo áp lực lên người tiêu dùng.", 0],
+["garble", "LANGUAGE & COMMUNICATION", "làm méo mó, làm lộn xộn (lời nói, thông tin) => khó hiểu", "", 0],
+["encyclopedia", "EDUCATION", "bách khoa toàn thư", "", 0],
+["emeritus", "EDUCATION", "former, honoured: (giáo sư) danh dự, giữ danh hiệu sau khi nghỉ hưu", "", 0],
+["eloquent", "POLITICS & SECURITY", "hùng hồn, lưu loát, có sức thuyết phục", "An eloquent leader can inspire the public and build support for difficult but necessary reforms. → Một nhà lãnh đạo có tài hùng biện có thể truyền cảm hứng cho công chúng và tạo sự ủng hộ cho những cải cách khó khăn nhưng cần thiết.", 0],
+["decipher", "HISTORY & ARCHAEOLOGY", "giải mã (mật mã)| đọc ra, hiểu được", "Archaeologists have spent decades trying to decipher ancient scripts in order to learn about early civilisations. → Các nhà khảo cổ đã dành nhiều thập kỷ để giải mã chữ viết cổ nhằm tìm hiểu về các nền văn minh sơ khai.", 0],
+["connotation", "LANGUAGE & COMMUNICATION", "implication: ý nghĩa ngầm, sắc thái nghĩa", "denotation (nghĩa đen) và connotation (nghĩa ngầm/bóng) | Some jobs, such as cleaning, carry negative connotations in society, even though they are essential. → Một số nghề, như lao công, bị gắn với hàm ý tiêu cực trong xã hội, dù chúng rất thiết yếu.", 0],
+["Confer", "EDUCATION", "trao, ban tặng | bàn bạc, trao đổi ý kiến", "Speaking several languages can confer a significant advantage in the global job market. → Biết nhiều ngôn ngữ có thể mang lại lợi thế đáng kể trên thị trường việc làm toàn cầu.", 0],
+["compile | Compilation", "MEDIA", "biên soạn, tổng hợp | sự biên tập/tuyển tập,bộ sưu tập các tác phẩm, bài viết, bài hát, video", "The compilation of accurate census data is essential for governments to plan schools, hospitals and public transport. → Việc tổng hợp dữ liệu điều tra dân số chính xác là điều thiết yếu để chính phủ quy hoạch trường học, bệnh viện và giao thông công cộng.", 0],
+["apprise", "BUSINESS", "inform, notify: thông báo, báo cho ai biết về một sự việc, tình hình (trang trọng).", "Managers must keep staff apprised of any changes in company policy to avoid confusion. → Quản lý phải thường xuyên cập nhật cho nhân viên về mọi thay đổi trong chính sách công ty để tránh nhầm lẫn.", 0],
+["affix", "EDUCATION", "phụ tố (tiền tố, hậu tố) | Gắn vào, dán vào, đóng dấu", "The notary will affix her seal to the document. (Công chứng viên sẽ đóng dấu của bà ấy vào tài liệu).", 0],
+["adage", "EDUCATION", "câu châm ngôn, ngạn ngữ", "The old adage says that practice makes perfect.", 0],
+["Ransom", "CRIME", "tiền chuộc", "Cyber criminals increasingly demand a ransom from companies after locking their data. → Tội phạm mạng ngày càng đòi tiền chuộc từ các công ty sau khi khóa dữ liệu của họ.", 0],
+["Spin-off", "WORK", "subsidiary: công ty con tách ra", "Space research has produced useful spin-offs, such as water purification technology. → Nghiên cứu không gian đã tạo ra những sản phẩm phụ hữu ích, như công nghệ lọc nước.", 0],
+["Plug away", "EDUCATION", "persevere, persis: kiên trì chăm chỉ, bền bỉ", "Students who plug away at their studies usually achieve better results than those who rely on last- minute revision. → Học sinh kiên trì học tập thườ", 0],
+["Etiquette", "WORK", "phép lịch sự, quy tắc ứng xử", "• • \"A lack of workplace etiquette can severely damage a company’s professional reputation and hinder international collaboration.\" • (Dịch: Việc thiếu hụt các quy tắc ứng xử nơi công sở có thể làm tổn hại nghiêm trọng đến uy tín chuyên nghiệp của công ty và cản trở sự hợp tác quốc tế.)", 0],
+["Ineptitude", "WORK", "incompetence, inability, inefficiency = sự kém cỏi, bất tài, thiếu năng lực", "He was forced from office for sheer ineptitude. (Ông ấy bị ép từ chức vì sự kém cỏi rõ rệt.", 0],
+["Squander", "WORK", "waste: lãng phí (tiền, thời gian, cơ hội)", "Don’t squander your opportunities", 0],
+["Counterpart", "WORK", "peer: đồng nghiệp, đối tác", "male/foreign/overseas counterpart", 0],
+["Pitfall", "ECONOMY", "drawback, trap, danger: cạm bẫy, rủi ro tiềm ẩn, khó khăn dễ gặp phải", "potential/common pitfalls, avoid/fall into a pitfall: One major pitfall of online learning is the lack of face-to-face interaction. → Một hạn chế lớn của học trực tuyến là thiếu tương tác trực tiếp.", 0],
+["Dole out", "CRIME", "distribute, allocate, dispense: phân phát (tiền, thức ăn, hình phạt) với số lượng nhỏ, từng chút một", "dole out money/aid/punishment/advice: Courts should not dole out lenient sentences to repeat offenders. → Tòa án không nên đưa ra những bản án nhẹ tay cho tội phạm tái phạm.", 0],
+["Tycoon", "ECONOMY", "business baron: ông trùm, đại gia (doanh nghiệp, tài chính)", "", 0],
+["Frenetic", "WORK", "chaotic: điên cuồng, hối hả, cuồng loạn (hoạt động nhanh, căng thẳng, thiếu trật tự)", "The frenetic pace of city life leaves many workers exhausted and stressed. → Nhịp sống hối hả của thành phố khiến nhiều người lao động kiệt sức và căng thẳng.", 0],
+["endow", "EDUCATION", "donate: ban tặng, tài trợ", "In 1937, Mellon endowed the National Gallery of Art.", 0],
+["peasant fare", "FOOD & DIET", "món ăn dân dã", "Many tourists are attracted to peasant fare because it reflects local culture and uses fresh, seasonal ingredients. → Nhiều du khách bị thu hút bởi ẩm thực dân dã vì nó phản ánh văn hóa địa phương và dùng nguyên liệu tươi theo mùa.", 0],
+["bolster", "ECONOMY", "củng cố, tăng cường, hỗ trợ để làm cho mạnh hơn hoặc tốt hơn (kinh tế, tinh thần, lập luận) > strengthen, reinforce, boost, support, enhance", "More money is needed to bolster the industry.", 0],
+["entitled", "CRIME", "be entitled to sth: có quyền/được quyền", "entitled to public pension: được hưởng lương hưu", 0],
+["Deregulate", "ENVIRONMENT", "free up, relax controls, remove restrictions: nới lỏng, bãi bỏ", "“deregulate the market/industry/sector (bãi bỏ quy định thị trường/ngành), financial/airline deregulation (nới lỏng quy định tài chính/hàng không)”", 0],
+["proliferate", "POLITICS & SECURITY", "spread, mushroom: lan rộng,sinh sôi (tiêu cực: tin tức/vũ khí/hạt nhân)", "proliferate rapidly/unchecked (lan nhanh/không kiểm soát), the proliferation of sth (sự gia tăng nhanh của…), nuclear proliferation (phổ biến vũ khí hạt nhân), proliferation of weapons/misinformation (sự phổ biến vũ khí/thông tin sai lệch), cell proliferation (sự tăng sinh tế bào)", 0],
+["liquidate", "WORK", "thanh lý, giải thể", "The company had to liquidate some of its assets.", 0],
+["scrap", "GOVERNMENT", "bãi bỏ; loại bỏ; hủy bỏ = abandon, cancel, discard, abolish", "scrap a plan/policy/project (hủy bỏ kế hoạch/chính sách/dự án), scrap metal/paper (kim loại/giấy phế liệu) | The committee decided to scrap the proposal.", 0],
+["novice", "WORK", "beginner, newcomer, rookie, apprentice, amateur: người mới; người thiếu kinh nghiệm", "The course is suitable for complete novices.", 0],
+["counter-cyclical", "MIGRATION", "ngược chu kỳ kinh tế", "Remittances can be countercyclical, rising during economic downturns.", 0],
+["remittance", "MIGRATION", "money transfer, payment: tiền chuyển về | migrant remittances (kiều hối của lao động nhập cư)", "His monthly remittance helps support his family |Remittances sent by migrant workers are a vital source of income for many developing countries, often exceeding foreign aid. → Tiền kiều hối do lao động nhập cư gửi về là nguồn thu nhập quan trọng của nhiều nước đang phát triển, thường vượt cả viện trợ nước ngoài.", 0],
+["Decent", "WORK", "adequate, satisfactory: khá tốt, mức chấp nhận được", "He hopes to find a decent job abroad", 0],
+["fare", "TRANSPORTATION", "tiền vé (xe buýt, tàu, máy bay, taxi)", "She borrowed money to cover her airfare", 0],
+["earnest", "WORK", "serious: nghiêm túc", "begin in earnest | Production began in earnest after the breakthrough.", 0],
+["lettuce", "FOOD & DIET", "rau xà lách, rau diếp", "a head of lettuce (một cây xà lách) | organic/hydroponic lettuce (xà lách hữu cơ/thủy canh)", 0],
+["ditch", "WORK", "loại bỏ; từ bỏ | hào, mương", "ditch plastic/cars/old habits (bỏ nhựa/xe hơi/thói quen cũ), ditch a plan/idea (từ bỏ kế hoạch/ý tưởng) |The company ditched its old product line.", 0],
+["strand", "ENVIRONMENT", "mắc cạn, làm mắc cạn", "Several killer whales were found stranded on the shore (Một số con cá voi sát thủ được tìm thấy bị mắc cạn trên bờ biển)", 0],
+["entrust", "HISTORY", "giao phó", "The emperor entrusted the reform movement to a trusted scholar (Hoàng đế giao phó phong trào cải cách cho một học giả đáng tin cậy)", 0],
+["peasant", "HISTORY", "nông dân nghèo; nông dân, tá điền", "Many peasants had few rights under the laws of the time (Theo luật pháp thời bấy giờ, nhiều nông dân có rất ít quyền lợi)", 0],
+["tenure", "CRIME", "quyền sở hữu hoặc sử dụng đất đai, nhà ở", "The tenure system determined who would farm the land (Hệ thống quyền sử dụng đất xác định ai sẽ canh tác trên phần đất đó)", 0],
+["discard", "ENVIRONMENT", "throw away, dispose of, get rid of: loại bỏ", "discard waste/packaging/clothes (vứt bỏ rác thải/bao bì/quần áo), discard an idea/theory/belief (từ bỏ ý tưởng/lý thuyết/niềm tin), discarded items (đồ bị vứt bỏ), be casually discarded (bị vứt bỏ tùy tiện)", 0],
+["dispense", "ENVIRONMENT", "phân phối, phóng thích", "The device dispenses pheromone to attract the moths (Thiết bị này giải phóng pheromone để thu hút các con bướm đêm)", 0],
+["confiscate", "CRIME", "tịch thu, thu giữ tài sản > sung công", "confiscate illegal goods | Authorities confiscated the illegally imported animals (Các cơ quan chức năng đã tịch thu số động vật được nhập khẩu trái phép.)", 0],
+["exemplary", "ENVIRONMENT", "outstanding, model, ideal: Tiêu biểu, xuất sắc/Gương mẫu,điển hình", "The centre does exemplary work to protect endangered wildlife.", 0],
+["Wield", "GOVERNMENT", "hold/handle, use: nắm giữ, cầm, sử dụng (quyền lực)", "The government can wield considerable influence over local authorities.", 0],
+["corpus", "LITERATURE", "collection: tuyển tập", "the English poetic corpus (Tác phẩm của nhà thơ đã trở thành một phần trong kho tàng thơ ca tiếng Anh)", 0],
+["Menial", "WORK", "công việc) tầm thường, đơn giản, lặp đi lặp lại", "a menial job | Scribes once performed menial work for the church (Trước đây, các thư lại từng làm những công việc vặt vãnh cho nhà thờ)", 0],
+["Barter", "ECONOMY", "Exchange: trao đổi hàng hóa", "Traders bartered salt for livestock (Các thương nhân đổi muối lấy gia súc.)", 0],
+["Hoard", "WORK", "accumulate: tích trữ", "The company hoarded funds for future projects.", 0],
+["Facade", "CONSTRUCTION", "mặt tiền | vẻ bề ngoài (che đi mặt tối bên trg)", "The renovation preserved the facade of the old building (Việc cải tạo đã bảo tồn mặt tiền của tòa nhà cũ)", 0],
+["ethos", "WORK", "spirit, culture, philosophy, values, principles:tinh thần, đặc trưng văn hóa/hệ giá trị", "a strong work ethos / the ethos of a company (văn hóa, tinh thần của công ty), instil an ethos (khắc sâu tinh thần/giá trị), underlying ethos (tinh thần cốt lõi)", 0],
+["smuggle", "CRIME", "buôn lậu", "Criminals often smuggle drugs across borders by exploiting weaknesses in customs checks. → Bọn tội phạm thường buôn lậu ma túy qua biên giới bằng cách lợi dụng những lỗ hổng trong khâu kiểm tra hải quan.", 0],
+["ESG", "ENVIRONMENT", "Environmental (Môi trường), Social (Xã hội) và Governance (Quản trị)", "• “Implementing ESG criteria helps modern enterprises secure long-term capital while minimizing their ecological footprint.” • (Việc áp dụng các tiêu chuẩn ESG giúp các doanh nghiệp hiện đại đảm bảo nguồn vốn dài hạn đồng thời giảm thiểu tối đa dấu chân sinh thái của họ).", 0],
+["Compound", "EDUCATION", "Hợp chất/Pha trộn/Kết hợp | làm trầm trọng thêm (Tích tụ, cộng dồn (nhiều thứ nhỏ tạo thành kết quả lớn).", "\"The lack of public transport options compounds the traffic congestion in major cities.\" • (Việc thiếu các lựa chọn phương tiện giao thông công cộng càng làm trầm trọng thêm tình trạng tắc nghẽn giao thông ở các thành phố lớn.)", 0],
+["(Be) on the same page", "EDUCATION", "In agreement", "", 0],
+["Human-centric", "EDUCATION", "lấy con người làm trung tâm", "\"Modern city planners should adopt a more human-centric approach to ensure that public spaces are accessible and friendly to all residents.\" (Các nhà quy hoạch đô thị hiện đại nên áp dụng cách tiếp cận lấy con người làm trung tâm hơn để đảm bảo rằng các không gian công cộng dễ tiếp cận và thân thiện với tất cả cư dân).", 0],
+["ones", "GRAMMAR", "đại từ thay thế để tránh lặp lại danh từ đã nhắc đến trước đó", "I've got experienced educators coming in as well. Ones that know their subject, ones that can be flexible to change...\"", 0],
+["pedagogy", "EDUCATION", "khoa học sư phạm hoặc phương pháp và nghệ thuật giảng dạy", "\"Modern pedagogy emphasises active learning and critical thinking instead of traditional rote memorisation.\"", 0],
+["Ingrain", "EDUCATION", "khắc sâu, thấm nhuần", "• \"Gender stereotypes remain deeply ingrained in many traditional societies around the world.\" (Các định kiến giới tính vẫn còn bám rễ sâu sắc trong nhiều xã hội truyền thống trên toàn thế giới).", 0],
+["exposure", "EDUCATION", "Sự tiếp xúc / Phơi nhiễm, Sự tiếp cận / Trải nghiệm, Sự phơi bày / Vạch trần", "", 0],
+["harsh", "EDUCATION", "Khắc nghiệt, dữ dội, nghiêm khắc, cay nghiệt", "", 0],
+["Youngster", "EDUCATION", "người trẻ tuổi", "", 0],
+["Strive", "EDUCATION", "nỗ lực hết sức, phấn đấu hoặc đấu tranh", "", 0],
+["athletic", "EDUCATION", "Thuộc về điền kinh hoặc thể thao|Khỏe mạnh, lực lưỡng, dẻo dai và giỏi thể thao", "This college has a long tradition of athletic excellence. (Trường cao đẳng này có truyền thống lâu đời về thành tích xuất sắc trong thể thao.)", 0],
+["well-being", "HEALTH", "tình trạng khỏe mạnh, hạnh phúc và an sinh toàn diện", "\"Governments need to invest more in green spaces in cities, as they significantly contribute to the psychological and social well-being of urban residents.\" (Chính phủ cần đầu tư nhiều hơn vào không gian xanh ở các thành phố, vì chúng đóng góp đáng kể vào sự khỏe mạnh về tâm lý và xã hội của cư dân đô thị.)", 0],
+["university admission", "STUDY", "quá trình xét tuyển ĐH", "", 0],
+["Camaraderie", "WORK", "Tình đồng nghiệp/đồng chí", "", 0],
+["Finland", "COUNTRIES", "Phần Lan", "Finnish: Tiếng Phần Lan", 0],
+["as a substitute for", "EDUCATION", "thay thế cho cái gì", "• • They used plastic as a substitute for wood. (Họ dùng nhựa để thay thế cho gỗ).", 0],
+["Family-centric", "FAMILY", "coi gia đình là trọng tâm", "In many Asian societies, a family-centric lifestyle significantly influences individual career choices and residential patterns.", 0],
+["extraordinary", "EDUCATION", "phi thường/khác thường/lạ thường/đặc biệt (vượt ra ngoài mức bình thường)", "", 0],
+["Perspective", "EDUCATION", "góc nhìn, cách nhìn nhận, hoặc quan điểm", "", 0],
+["Pastoral care", "EDUCATION", "chăm sóc toàn diện/bảo trợ tinh thần", "hệ thống hỗ trợ về mặt cảm xúc, tinh thần, tâm lý, xã hội và các mối quan hệ (thay vì chỉ tập trung vào kiến thức hay chuyên môn thuần túy) dành cho một cá nhân", 0],
+["Be immersed in", "EXPRESSIONS OF PREFERENCE", "Bị cuốn vào, mải mê hoặc ngập sâu trg ...", "She was immersed in deep thought. (Cô ấy đang chìm sâu vào dòng suy nghĩ)/ She immersed herself in her work. (Cô ấy đắm chìm vào công việc của mình).", 0],
+["Philosophy", "STUDY", "Triết học hoặc triết", "", 0],
+["peer", "STUDY", "Người ngang hàng / Bạn đồng trang lứa", "Peer pressure (áp lực đồng trang lứa), peer review (phản biện đồng cấp/bình duyệt khoa học), peer learning (học tập đồng đẳng).", 0],
+["Boarding school", "EDUCATION", "trường nội trú", "", 0],
+["be in someone's shoes", "EDUCATION", "if I was you: Trg hoàn cảnh/tình thế/vị trí của ...", "", 0],
+["resonate", "EDUCATION", "Mang lại sự đồng cảm/chạm đến cảm xúc/tạo ấn tượng", "", 0],
+["Build st from scratch", "EDUCATION", "xây dựng ... từ con số không", "we really have alignment fit and tested it through all the ups and downs of building something from scratch", 0],
+["the ups and downs", "EDUCATION", "Những thăng trầm: Thường mang sắc thái trung lập, phản ánh một quy luật tự nhiên trong cuộc sống, công việc, hay các mối quan hệ mà ai cũng phải trải qua", "We really have alignment fit and tested it through all the ups and downs of building something from scratch", 0],
+["Stewardship", "EDUCATION", "Quản lý cẩn thận, tận tụy và có trách nhiệm (Phụng sự và bảo vệ không đơn thuần chỉ là điều hành)", "= Management/Administration/Supervision + Caretaking + Protection + Trust", 0],
+["forward-facing", "EDUCATION", "Future-facing: Hướng về phía trước", "", 0],
+["get the impression", "WORK", "Ấn tượng, cảm nhận", "He made a great impression at the job interview. (Anh ấy đã tạo ấn tượng rất tốt trong buổi phỏng vấn xin việc.)", 0],
+["Future-facing", "EDUCATION", "Future-oriented: Hướng tới/có tầm nhìn/tiên phong/đón đầu tương lai", "\"Future-facing learning approach\" (Phương pháp học tập đón đầu tương lai) | \"A future-facing company\" (Một công ty hướng tới tương lai / công ty tiên phong)", 0],
+["enable", "EDUCATION", "Tạo điều kiện, mang lại khả năng | Kích hoạt (tính/chức năng)", "This course enables students to improve their English skills. (Khóa học này giúp học viên nâng cao kỹ năng tiếng Anh.)", 0],
+["matter", "EDUCATION", "quan trọng/có ý nghĩa/có ảnh hưởng | Issue (vấn đề)| Problem/Trouble (Rắc rối / Phiền phức)", "Her health is what matters. (Sức khỏe của cô ấy mới là điều quan trọng.)", 0],
+["Bring st to the forefront", "EDUCATION", "Đưa cái gì đó lên hàng đầu", "The rapid rise of artificial intelligence has pushed ethical concerns regarding data privacy to the forefront (• Sự phát triển nhanh chóng của trí tuệ nhân tạo đã đẩy những lo ngại về đạo đức liên quan đến quyền riêng tư dữ liệu trở thành tâm điểm chú ý)", 0],
+["straightforward", "EDUCATION", "Thẳng thắn, thành thật, cởi mở", "", 0],
+["Holistic", "EDUCATION", "General / Universal: toàn diện, bao quát", "• Schools should adopt a holistic approach to education rather than focusing solely on exam results. (Các trường học nên áp dụng phương pháp giáo dục toàn diện thay vì chỉ tập trung vào kết quả thi cử.)", 0],
+["intrinsic", "PSYCHOLOGY", "nội tại, thuộc về bản chất", "It's not everyday that someone just wants to start a school. Like I know there's an intrinsic motivation at least from your side as a former or current educator still", 0],
+["train line", "TRANSPORTATION", "đường sắt", "The new train line connects the airport directly to the city center", 0],
+["Surrounding", "CITIES", "Bao quanh, xung quanh, ở vùng lân cận", "The hotel is ideal for visiting the city and the surrounding area", 0],
+["infrastructure", "CONSTRUCTION", "cơ sở/kết cấu hạ tầng", "Structure/Facilities/Amenities/Utilities", 0],
+["catch up with", "SPEED", "Keep up with", "the infrastructure around, it has been a little bit slow to catch up", 0],
+["lease", "CONTRACT", "Thuê/hợp đồng cho thuê", "Rent/Hire", 0],
+["Get caught with...", "CONTRACT", "Bị mắc kẹt, bị vướng vào/Bị bắt quả tang, bị phát hiện", "Uh some schools get caught with like leases that are a little too on terms that don't provide that flexibility", 0],
+["endure", "ECONOMY", "Chịu đựng/Kéo dài/Kiên trì/ Tồn tại", "Survive/Bear/Withstand/Put up with/Persist", 0],
+["runway", "ECONOMY", "Đường băng / Thời gian duy trì hoạt động", "And I think we're able to do it on terms that give you a lot of runway to build something that is truly enduring", 0],
+["catchment area", "EDUCATION", "vùng tuyển sinh/tuyến bệnh viện", "it pulls from the right catchment area from a great fit with, in terms of the population there and in Hanoi, to the Uppingham legacy and quality that we're aiming for", 0],
+["Outskirt", "CITIES", "Suburbs/Border / Edge: Khu ngoại ô/Phần rìa, vùng giáp ranh", "", 0],
+["township", "CITIES", "đại đô thị quy hoạch khép kín/thành phố thu nhỏ (Ecopark/Ciputra Hanoi/Vinhomes Ocean Park/Vinhomes Smart City)", "Hung Yen's a beautiful green township that has a vibrant population on the southeastern outskirts of Hanoi", 0],
+["precondition", "ECONOMY", "điều kiện tiên quyết", "Political stability is a vital precondition for sustainable economic growth.\" (Sự ổn định chính trị là điều kiện tiên quyết sống còn cho tăng trưởng kinh tế bền vững.)", 0],
+["K12 school", "EDUCATION", "Trường liên cấp từ mẫu giáo > THPT", "", 0],
+["firm", "WORK", "company: cty dịch vụ chuyên môn/tư vấn", "Investment firm (công ty đầu tư), brokerage firm (công ty môi giới chứng khoán).", 0],
+["keen to V", "EXPRESSIONS OF PREFERENCE", "Eager/Anxious to V: háo hức, mong muốn làm gì", "She is keen to learn English (Cô ấy rất háo hức/nhiệt tình học tiếng Anh).", 0],
+["of choice", "PHRASE", "Được ưa chuộng nhất, là sự lựa chọn hàng đầu, hay được chọn dùng nhất", "Preferred/Go-to/Chosen: Champagne is their drink of choice. (Sâm-panh là thức uống họ chuộng nhất / hay uống nhất)", 0],
+["as well", "PHRASE", "too/also: cũng/cũng vậy", "Can I get a large pizza and some garlic bread as well? (Cho tôi một chiếc pizza lớn và cả bánh mì tỏi nữa nhé?)", 0],
+["Headteacher", "EDUCATION", "hiệu trưởng", "", 0],
+["test score", "STUDY", "điểm số bài kiểm tra", "She got a high score on her math test", 0],
+["born and bred", "HOMETOWN", "sinh ra và lớn lên", "", 0],
+["navigate", "EDUCATION", "điều hướng/lái/xoay xở/thích nghi", "Many students drop out in the first year because they just can't navigate", 0],
+["A string of (something)", "STUDY", "chuỗi liên tiếp của những sự vật, hiện tượng cùng loại", "strings of A's: bảng điểm toàn A | She has had a string of successes in her career | He told me a string of lies", 0],
+["academically able", "STUDY", "khả năng học tập tốt/có tố chất học thuật", "Every who applies is academically able", 0],
+["acquire knowledge", "EDUCATION", "tiếp thu kiến thức", "", 0],
+["vocational", "EDUCATION", "Thuộc đào tạo nghề, hướng nghiệp", "Vocational education is important because it equips students with practical skills that employers actually need.", 0],
+["tuition waiver", "EDUCATION", "Chính sách miễn học phí", "A tuition waiver can encourage talented students from disadvantaged backgrounds to pursue higher education.", 0],
+["scholar", "EDUCATION", "academic, researcher, scholarship recipient: Học giả/ng nhận học bổng", "", 0],
+["sabbatical", "EDUCATION", "Kỳ nghỉ dài (nghiên cứu/học tập chuyên môn)", "Teachers should occasionally take a sabbatical to conduct research and improve their professional skills", 0],
+["literacy", "EDUCATION", "Khả năng đọc viết/hiểu biết về một lĩnh vực", "Digital literacy is becoming increasingly important because most jobs now require basic technology skills.", 0],
+["lecture theatre", "STUDY", "giảng đường lớn", "", 0],
+["apprentice", "WORK", "trainee, learner, rookie, boot = Newbie: người học việc", "", 2],
+["supersede", "EDUCATION", "replace, substitute, displace: thay thế", "Technology supersedes old methods.", 0],
+["refute", "EDUCATION", "Bác bỏ: disprove, rebut, contradict", "", 0],
+["propound", "EDUCATION", "propose: Đưa ra/đề xuất", "", 0],
+["methodical", "EDUCATION", "Có phương pháp/hệ thống", "systematic, organised, structured", 0],
+["impart", "EDUCATION", "teach, convey: Truyền đạt, truyền thụ kiến thức", "A good teacher should not only impart knowledge but also inspire students to think independently.", 0],
+["firsthand", "STUDY", "direct, personal: Trực tiếp trải nghiệm, chứng kiến", "Studying overseas allows students to gain firsthand experience of different cultures and lifestyles.", 0],
+["empirical", "EDUCATION", "Dựa trên thực nghiệm/bằng chứng thực tế", "evidence-based, experimental", 0],
+["deduce", "EDUCATION", "suy luận", "conclude, derive, infer", 0],
+["cross-correlate", "EDUCATION", "compare: đối chiếu 2 dữ liệu để tìm mối tương quan", "Researchers can cross-correlate students' test results and study habits to identify patterns in academic performance.", 0],
+["conjecture", "EDUCATION", "guess/assumption: phỏng đoán", "I don't think educational decisions should be based on conjecture rather than reliable information.", 0],
+["comparative", "EDUCATION", "Có tính so sánh", "A comparative study of different education systems can help us understand which teaching methods work best.", 0],
+["cognitive", "EDUCATION", "Nhận thức (thiên về khả năng xử lý thông tin của não bộ: ghi nhớ, học tập, lập luận, chú ý,...", "Reading improves cognitive skill", 0],
+["aptitude", "STUDY", "Talent, ability, capability: Năng khiếu, khả năng tự nhiên", "She has an aptitude for maths.", 0],
+["anecdotal", "EDUCATION", "personal, informal: Mang tính giai thoại, dựa trên trải nghiệm cá nhân", "I think anecdotal evidence is not always reliable because personal experiences can be quite different.", 0],
+["student union", "STUDY", "Hội sinh viên", "• The student union helps new students settle in quickly. (Hội sinh viên giúp sinh viên mới hòa nhập nhanh chóng.)", 1],
+["student loan", "STUDY", "Khoản vay sinh viên", "", 1],
+["tuition fees", "STUDY", "học phí", "", 1],
+["application", "STUDY", "Đơn đăng ký / hồ sơ ứng tuyển", "submit an application: Nộp đơn đăng ký", 1],
+["hall of residence/halls", "STUDY", "ký túc xá", "Living in a hall of residence is a great way to make new friends", 0],
+["lecture/lecturer", "STUDY", "Bài giảng/Giảng viên", "", 0],
+["university campus", "STUDY", "khuôn viên trường đại học", "", 0],
+["dissertation/thesis", "STUDY", "luận văn/luận án", "", 0],
+["pursue postgraduate studies", "STUDY", "theo học chương trình sau đại học", "I am leaving my job to pursue postgraduate studies", 0],
+["obtain a master's degree", "STUDY", "đạt được bằng thạc sĩ", "t took her two years to obtain a master's degree", 0],
+["study for a bachelor's degree", "STUDY", "học để lấy bằng cử nhân", "I'm studying for my bachelor's degree in business", 1],
+["bachelor's degree/master's degree/PhD (Doctor of Philosophy)", "EDUCATION", "Bằng cử nhân/Thạc sĩ/Tiến sĩ", "In today's job market, holding a bachelor's degree is just the bare minimum, so many professionals choose to pursue a master's degree or even a PhD to stand out.", 0],
+["postgraduate", "STUDY", "SV sau ĐH/Bậc sau ĐH", "He is working hard on his postgraduate thesis (uận văn thạc sĩ/tiến sĩ)", 0],
+["undergraduate", "STUDY", "SV ĐH/Bậc ĐH", "Undergraduate students often face financial difficulties/Tuition fees for undergraduate courses have increased rapidly", 0],
+["hybrid working", "WORK", "làm việc kết hợp online và offline", "My company offers hybrid working", 0],
+["do blended learning", "STUDY", "Học kết hợp trực tiếp và trực tuyến", "Many schools have adopted blended learning to improve the learning experience. → Nhiều trường học đã áp dụng phương pháp học kết hợp để cải thiện trải nghiệm học tập.", 0],
+["Gain admission to a school", "STUDY", "Được nhận vào một trường", "She worked extremely hard to gain admission to Harvard University.", 0],
+["be admitted to a school", "STUDY", "Được nhận vào một trường ...", "Only 10% of applicants are admitted to this school", 0],
+["between the ages of 5 and 11", "STUDY", "Trong độ tuổi từ 5 đến 11", "", 0],
+["learn the basics of...", "STUDY", "Học những kiến thức cơ bản về...", "", 0],
+["deadline for submission", "STUDY", "hạn chót nộp bài", "", 0],
+["submit/hand in", "STUDY", "Nộp bài", "She submitted her essay to the teacher/You must submit your work by Friday", 0],
+["do distance learning", "STUDY", "học từ xa", "", 0],
+["Be referred to as", "STUDY", "được gọi/biết/đề cập/nhắc đến như là...", "English is often referred to as a global language", 0],
+["compulsory education", "STUDY", "giáo dục bắt buộc", "As far as I know, compulsory education in my country covers primary and lower secondary school", 0],
+["drop out (of school)", "STUDY", "bỏ học (giữa chừng)", "Many students from low-income families are forced to drop out of school to support their parents", 0],
+["Enter", "STUDY", "vào, bắt đầu theo học", "Children usually enter primary school at the age of six", 0],
+["Attend", "STUDY", "theo học, đi học, tham dự", "All children must attend school until the age of 16. Tất cả trẻ em phải đi học cho đến năm 16 tuổi.", 0],
+["university entrance exams", "STUDY", "kỳ thi tuyển sinh đại học", "", 0],
+["Specialised middle/high school for gifted students STUDY", "STUDY", "trường chuyên", "I was an English-major student at HNUE High School for Gifted, one of the leading specialised high schools in Hanoi Students.", 0],
+["do well/badly in an exam", "STUDY", "làm bài thi tốt/kém", "", 0],
+["skip classes", "STUDY", "trốn học", "", 0],
+["resit an exam", "STUDY", "thi lại", "", 0],
+["Algebra", "STUDY", "Đại số /ˈæl.dʒə.brə/", "", 0],
+["Geometry", "STUDY", "Hình học /dʒiˈɒm.ə.tri/", "", 0],
+["Division(÷)", "EDUCATION", "phép chia", "", 0],
+["Multiplication(×)", "EDUCATION", "phép nhân", "", 0],
+["Subtraction(−)", "EDUCATION", "phép trừ", "", 0],
+["Addition(+)", "EDUCATION", "phép cộng", "", 0],
+["Arithmetic", "EDUCATION", "Số học – phép tính số học cơ bản", "I'm not very good at mental arithmetic (Tính nhẩm)", 1],
+["Crèche", "EDUCATION", "Nhà trẻ/Nơi trông trẻ nhỏ (Sơ sinh)", "", 2],
+["Nursery", "EDUCATION", "Nhà trẻ / trường mầm non", "", 2],
+["PE (physical education)", "STUDY", "môn thể dục", "", 2],
+["pencil sharpen", "STUDY", "gọt bút chì", "", 2],
+["rubber/eraser", "STUDY", "tẩy bút chì", "", 2],
+["do homework", "STUDY", "làm bài tập", "", 2],
+["get a/sbd's degree", "STUDY", "nhận bằng đại học/cao đẳng", "It took her four years to get her degree", 2],
+["take/do an exam | pass/fail ur exam", "STUDY", "Làm bài thi | Đậu/Trượt môn", "", 2],
+["ICT(Information communication technology)", "STUDY", "Môn Tin học", "", 2],
+["unemployment", "WORK", "thất nghiệp", "The unemployment rate fell to 4%.", 0],
+["absent from sth", "WORK", "vắng mặt ở", "He was absent from work for a week. (Anh ấy vắng mặt ở chỗ làm một tuần.)", 0],
+["put effort into sth / doing", "BUSINESS", "invest effort in: dồn công sức vào việc gì", "They put a lot of effort into the project. (Họ dồn rất nhiều công sức cho dự án.)", 0],
+["on business", "BUSINESS", "travel for work: công tác", "She's gone to Singapore on business. (Cô ấy sang Singapore công tác.)", 0],
+["day by day", "HEALTH", "gradually: từng ngày một, dần dần", "His health is improving day by day. (Sức khỏe anh ấy khá lên từng ngày.)", 0],
+["have / take / get a day off", "WORK", "take a day's leave: nghỉ một ngày", "I'm taking a day off tomorrow. (Ngày mai mình nghỉ một ngày.)", 0],
+["back out", "WORK", "withdraw: rút lui, không làm điều đã đồng ý", "The investor backed out at the last minute. (Nhà đầu tư rút lui vào phút chót.)", 0],
+["see to", "WORK", "deal with, handle: giải quyết, lo liệu", "Don't worry. I'll see to the customers. (Đừng lo. Mình sẽ lo khách hàng.)", 0],
+["stand in for", "WORK", "làm thay công việc của ai khi họ vắng", "Mai stood in for the manager while he was on holiday. (Mai làm thay quản lý khi anh ấy đi nghỉ.)", 0],
+["bring out", "WORK", "launch, release, introduce: ra mắt", "The company will bring out a new smartphone in June. (Công ty sẽ tung ra điện thoại mới vào tháng Sáu.)", 0],
+["take over", "WORK", "tiếp quản, nắm quyền kiểm soát (công ty)", "A larger firm took over the company last year. (Một công ty lớn hơn đã tiếp quản công ty đó năm ngoái.) | He took over from the former manager.(Tiếp quản từ ai hoặc thay thế cái gì)", 0],
+["turn down", "WORK", "reject, decline, refuse: từ chối (lời đề nghị, yêu cầu)", "He turned down the job offer because the salary was too low. (Anh ấy từ chối lời mời làm việc vì lương quá thấp.)", 0],
+["charity", "GOVERNMENT", "tổ chức từ thiện, phi lợi nhuận", "She works for a children's charity. (Cô ấy làm cho một tổ chức từ thiện trẻ em.)", 0],
+["pension", "WORK", "lương hưu", "She lives on a small pension. (Bà sống bằng khoản lương hưu nhỏ.)", 0],
+["resign/quit", "WORK", "xin nghỉ việc/từ chức", "She resigned after an argument with her boss. (Cô ấy xin nghỉ sau khi cãi nhau với sếp.)", 0],
+["wage", "BUSINESS", "income: tiền công (lao động chân tay)", "Factory workers receive weekly wages. (Công nhân nhà máy nhận lương theo tuần.)", 0],
+["Stiff competition", "BUSINESS", "cạnh tranh gay gắt", "Local businesses face stiff competition from online retailers. (Doanh nghiệp địa phương đối mặt với cạnh tranh gay gắt từ các nhà bán lẻ trực tuyến.)", 0],
+["recession", "BUSINESS", "suy thoái kinh tế", "Governments often cut taxes in an attempt to end a recession. (Chính phủ thường giảm thuế để cố gắng chấm dứt suy thoái.)", 0],
+["sell like hot cakes", "BUSINESS", "bán chạy như tôm tươi", "The jackets are selling like hotcakes, so they might sell out soon. (Những chiếc áo khoác đang bán rất chạy nên có thể sẽ sớm hết hàng.)", 0],
+["sell out", "BUSINESS", "be out of stock: bán hết sạch", "The concert sold out in ten minutes (Buổi hòa nhạc bán hết vé trong mười phút).", 0],
+["Custom-built", "BUSINESS", "customized, custom-made: làm riêng theo yêu cầu khách", "He ordered a custom-built gaming PC with a powerful graphics card. (Anh ấy đặt làm riêng một chiếc PC chơi game có card đồ họa mạnh.)", 0],
+["roll out", "BUSINESS", "launch, introduce, implement, deploy: triển khai dần trên diện rộng", "The bank will roll out the new app in stages across the country. (Ngân hàng sẽ triển khai ứng dụng mới theo từng giai đoạn trên toàn quốc.)", 0],
+["going forward", "BUSINESS", "moving forward, from now on: Từ nay về sau", "Going forward, we'll put more effort into online marketing. (Từ nay về sau, chúng tôi sẽ đầu tư nhiều công sức hơn cho tiếp thị trực tuyến.)", 0],
+["access new markets", "BUSINESS", "enter a market: tiếp cận thị trường mới", "Online platforms help small firms access new markets overseas. (Các nền tảng trực tuyến giúp công ty nhỏ tiếp cận thị trường mới ở nước ngoài.)", 0],
+["Build contacts", "BUSINESS", "xây dựng mối quan hệ trong công việc", "Attending trade fairs helped him build valuable contacts in the industry. (Việc tham dự các hội chợ thương mại giúp anh ấy xây dựng được những mối quan hệ giá trị trong ngành.)", 0],
+["do business", "BUSINESS", "trade, deal, work: làm ăn, kinh doanh", "Our company does business with partners in over 20 countries. (Công ty chúng tôi làm ăn với các đối tác ở hơn 20 quốc gia.)", 0],
+["firm", "BUSINESS", "công ty (thường nhỏ hoặc vừa)", "a law / accounting / consulting / family firm, set up a firm, a firm of lawyers", 0],
+["Vice President (VP)", "BUSINESS", "phó chủ tịch điều hành / phó tổng giám đốc cấp cao (Báo cáo CEO)", "", 0],
+["Managing Director (MD)", "BUSINESS", "Giám đốc điều hành", "He is the Managing Director of our Vietnam branch. (Ông ấy là giám đốc điều hành chi nhánh Việt Nam.)", 0],
+["Chief Executive Officer (CEO)", "BUSINESS", "Tổng giám đốc điều hành", "", 0],
+["carry out / conduct / do market research", "BUSINESS", "nghiên cứu thị trường", "", 0],
+["expand into new markets | expand the business / operations,", "BUSINESS", "mở rộng", "The company plans to expand into Southeast Asian markets next year. (Công ty có kế hoạch mở rộng sang các thị trường Đông Nam Á vào năm tới.)", 0],
+["Make a profit", "BUSINESS", "turn a profit: có nghĩa là kiếm lời, tạo ra lợi nhuận", "The shop finally started to make a profit after six months. (Cửa hàng cuối cùng cũng bắt đầu có lãi sau sáu tháng.)", 0],
+["set priorities", "WORK", "đặt/sắp xếp mức độ ưu tiên", "You need to set priorities before starting the project. (Bạn cần đặt thứ tự ưu tiên trước khi bắt đầu dự án.)", 0],
+["take a risk/take risks", "WORK", "chấp nhận rủi ro/mạo hiểm", "One cannot be successful in business unless one is willing to take risks. — Không ai có thể thành công trong kinh doanh nếu không sẵn sàng chấp nhận rủi ro. | Don't hesitate to take a risk when a good opportunity comes. — Đừng ngần ngại mạo hiểm khi cơ hội tốt đến.", 0],
+["take early retirement", "WORK", "retire early: nghỉ hưu sớm", "He took early retirement at 55.", 0],
+["be a workaholic", "WORK", "người nghiện công việc", "be married to your job (thành ngữ) | Burn the candle at both ends (làm việc quá sức, thức khuya dậy, thiếu nghỉ ngơi)", 0],
+["take on a job", "WORK", "accept a job: nhận một công việc", "She won't take on that job.", 0],
+["be offered work/a job", "WORK", "được mời làm việc", "I've been offered a job in Paris.", 0],
+["go/be on strike", "WORK", "đình công", "", 0],
+["be laid off", "WORK", "bị cho nghỉ việc", "Many staff were laid off.", 0],
+["be made redundant", "WORK", "bị cho thôi việc (do dư thừa nhân sự)", "The factory closed down and 200 workers were made redundant.", 0],
+["be on sick leave", "WORK", "nghỉ ốm theo chế độ", "Employees on sick leave are entitled to partial pay. (Nhân viên nghỉ ốm được hưởng một phần lương.)", 0],
+["be off sick", "WORK", "nghỉ ốm", "I was off sick for a few days with the flu. (Tôi nghỉ mấy ngày vì cúm.) | Tom's off sick today, so I'll cover his meeting. (Hôm nay Tom nghỉ ốm nên tôi sẽ họp thay.)", 0],
+["work nine-to-five", "WORK", "làm giờ hành chính", "Some graduates reject a nine-to-five job in favour of starting their own business.", 0],
+["be fired", "WORK", "bị đuổi việc", "He was fired for being late.", 0],
+["be promoted", "WORK", "được thăng chức = get a promotion", "He was promoted to manager", 0],
+["What do you do for a living?", "WORK", "What do you do? What's your job?", "", 0],
+["make a living", "WORK", "kiếm sống", "She makes a living as a writer.", 0],
+["apply for a job", "WORK", "nộp đơn xin việc", "I applied for a job at a bank.", 0],
+["physiotherapist", "HEALTH", "nhà vật lý trị liệu", "person who treats muscle injury by rubbing and moving injured areas (người chữa chấn thương cơ bằng cách xoa bóp và vận động vùng bị thương)", 0],
+["civil servant", "GOVERNMENT", "công chức nhà nước", "My uncle is a civil servant in the Ministry of Education. (Chú tôi là công chức ở Bộ Giáo dục.)", 0],
+["Craft", "WORK", "(n, v) /krɑːft/: nghề thủ công, tay nghề; chế tác | Đồng nghĩa: trade, skill, handicraft; (v) make, create | Cụm: arts and crafts, craft a strategy (soạn thảo chiến lược cẩn thận)", "He has spent twenty years learning the craft of woodworking. → Anh ấy dành hai mươi năm học nghề mộc.", 0],
+["Oversee", "WORK", "(v) /ˌəʊvəˈsiː/: giám sát, trông coi | Đồng nghĩa: supervise, manage, monitor | Cụm: oversee operations / a project / production", "She oversees a team of fifty engineers. → Cô ấy giám sát một nhóm năm mươi kỹ sư.", 0],
+["Sideline", "WORK", "(n) /ˈsaɪdlaɪn/: công việc phụ, nghề tay trái | Đồng nghĩa: side job, second job, moonlighting | Cụm: as a sideline, run a sideline", "He teaches English as a sideline to his main job. → Anh ấy dạy tiếng Anh làm nghề phụ bên cạnh công việc chính.", 0],
+["Amalgamation", "BUSINESS", "(n) /əˌmælɡəˈmeɪʃn/: sự sáp nhập, hợp nhất | Đồng nghĩa: merger, consolidation, union | Cụm: amalgamation of two firms / banks, amalgamate (v)", "The amalgamation of the two banks created a financial giant. → Việc sáp nhập hai ngân hàng tạo nên một gã khổng lồ tài chính.", 0],
+["Lucrative", "BUSINESS", "(adj) /ˈluːkrətɪv/: sinh lợi, lợi nhuận cao | Đồng nghĩa: profitable, well-paid, rewarding | Cụm: lucrative deal / contract / career / business", "She turned down a lucrative job offer to start her own company. → Cô ấy từ chối một lời mời làm việc lương cao để lập công ty riêng.", 0],
+["Relinquish", "WORK", "(v) /rɪˈlɪŋkwɪʃ/: từ bỏ (quyền, chức vụ) | Đồng nghĩa: give up, step down from, surrender | Cụm: relinquish control / power / a post / a position", "The founder relinquished control of the company in 2020. → Người sáng lập từ bỏ quyền kiểm soát công ty năm 2020.", 0],
+["Retention", "WORK", "(n) /rɪˈtenʃn/: việc giữ chân (nhân viên, khách hàng); khả năng ghi nhớ | Đồng nghĩa: keeping, preservation; (ghi nhớ) memory | Cụm: staff / employee / customer retention, retention rate, retention of information", "Better pay will improve staff retention. → Lương tốt hơn sẽ giúp giữ chân nhân viên.", 0],
+["Ledger", "BUSINESS", "(n) /ˈledʒə(r)/: sổ cái (kế toán) | Đồng nghĩa: account book, register, record book | Cụm: general ledger, keep a ledger, ledger entry", "All transactions are recorded in the company's ledger. → Mọi giao dịch được ghi vào sổ cái của công ty.", 0],
+["Shrewd", "BUSINESS", "(adj) /ʃruːd/: sắc sảo, khôn ngoan (trong phán đoán) | Đồng nghĩa: astute, canny, sharp | Cụm: shrewd businessman / investor / negotiator, a shrewd move", "Her shrewd investments made her very wealthy. → Những khoản đầu tư sắc sảo giúp cô ấy rất giàu có.", 0],
+["Offset", "BUSINESS", "(v) /ˈɒfset/: bù đắp, cân bằng lại | Đồng nghĩa: counterbalance, compensate for, make up for | Cụm: offset costs / losses / the impact of sth", "Higher sales helped offset the rise in production costs. → Doanh số cao hơn giúp bù đắp chi phí sản xuất tăng.", 0],
+["Livelihood", "WORK", "(n) /ˈlaɪvlihʊd/: kế sinh nhai, nguồn sống | Đồng nghĩa: living, income, means of support | Cụm: earn / make a livelihood, lose your livelihood, a source of livelihood", "Fishing is the main livelihood of the village. → Đánh cá là kế sinh nhai chính của ngôi làng.", 0],
+["Levy", "ECONOMY", "(v, n) /ˈlevi/: đánh (thuế, phí); khoản thuế, phí | Đồng nghĩa: impose, charge, tax | Cụm: levy a tax / a fee / a fine on sth, a levy on sth", "The government plans to levy a tax on sugary drinks. → Chính phủ dự định đánh thuế đồ uống có đường.", 0],
+["Overrun", "BUSINESS", "(v, n) /ˌəʊvəˈrʌn/: vượt quá (ngân sách, thời gian) | Đồng nghĩa: exceed, go over, run over | Cụm: cost overrun, overrun the budget / deadline", "The project overran its budget by 30 per cent. → Dự án vượt ngân sách 30%.", 0],
+["Mundane", "WORK", "(adj) /mʌnˈdeɪn/: tẻ nhạt, nhàm chán, thường ngày | Đồng nghĩa: routine, humdrum, tedious, ordinary | Cụm: mundane tasks / chores / routine / job", "Most of his day is spent on mundane paperwork. → Phần lớn thời gian trong ngày của anh ấy dành cho giấy tờ nhàm chán.", 0],
+["Predecessor", "WORK", "(n) /ˈpriːdəsesə(r)/: người tiền nhiệm; thứ có trước | Đồng nghĩa: forerunner, precursor, previous holder | Cụm: his / her predecessor as + chức vụ, a predecessor of sth", "The new CEO is more cautious than her predecessor. → Tổng giám đốc mới thận trọng hơn người tiền nhiệm.", 0],
+["Yield", "ECONOMY", "(v, n) /jiːld/: mang lại (kết quả, lợi nhuận); lợi suất, sản lượng | Đồng nghĩa: produce, generate, return | Cụm: yield a profit / results / a return, high yield, crop yield", "The investment yielded a return of 8 per cent. → Khoản đầu tư mang lại lợi nhuận 8%.", 0],
+["Commission", "BUSINESS", "(n, v) /kəˈmɪʃn/: tiền hoa hồng; giao việc, đặt làm | Đồng nghĩa: fee, percentage; (v) assign, order | Cụm: work on commission, earn commission, commission a report", "Salespeople earn a 5% commission on every sale. → Nhân viên bán hàng nhận hoa hồng 5% trên mỗi giao dịch.", 0],
+["Subsidize", "ECONOMY", "(v) /ˈsʌbsɪdaɪz/ (Anh: subsidise): trợ cấp, hỗ trợ tài chính | Đồng nghĩa: fund, finance, support financially | Cụm: subsidised housing / tuition / food, a subsidy (n)", "The government subsidises university tuition for low-income students. → Chính phủ trợ cấp học phí đại học cho sinh viên thu nhập thấp.", 0],
+["Allocate", "BUSINESS", "(v) /ˈæləkeɪt/: phân bổ | Đồng nghĩa: assign, distribute, earmark | Cụm: budget allocation (phân bổ ngân sách), allocate resources / funds / time", "The manager allocated more time to staff training. → Quản lý phân bổ nhiều thời gian hơn cho việc đào tạo nhân viên.", 0],
+["Demanding", "WORK", "(adj) /dɪˈmɑːndɪŋ/: đòi hỏi cao, vất vả | Đồng nghĩa: challenging, taxing, tough, exacting | Cụm: demanding job / boss / schedule / course", "Being a doctor is a demanding job. → Làm bác sĩ là một công việc đòi hỏi rất cao.", 0],
+["Incentivize", "WORK", "(v) /ɪnˈsentɪvaɪz/ (Anh: incentivise): khuyến khích bằng ưu đãi | Đồng nghĩa: motivate, encourage, reward | Cụm: incentivise staff / employees / customers, an incentive (n)", "Companies often incentivise staff with annual bonuses. → Các công ty thường khuyến khích nhân viên bằng tiền thưởng cuối năm.", 0],
+["Stake", "BUSINESS", "(n) /steɪk/: phần vốn góp, cổ phần; quyền lợi liên quan | Đồng nghĩa: share, interest, investment | Cụm: hold a 20% stake in, have a stake in sth, stakeholder (n)", "The investor bought a 15% stake in the start-up. → Nhà đầu tư mua 15% cổ phần của công ty khởi nghiệp.", 0],
+["Revenue projection", "BUSINESS", "dự báo doanh thu | Đồng nghĩa: revenue forecast, sales forecast | Cụm: prepare / review a revenue projection, a five-year revenue projection", "The revenue projection shows strong growth next year. → Dự báo doanh thu cho thấy tăng trưởng mạnh vào năm tới.", 0],
+["Commuting costs", "TRANSPORTATION", "chi phí đi lại hằng ngày để đi làm | Đồng nghĩa: travel costs, transport costs | Cụm: reduce / cut commuting costs, rising commuting costs", "Working from home helps employees save on commuting costs. → Làm việc ở nhà giúp nhân viên tiết kiệm chi phí đi lại.", 0],
+["Commute / travel long distances to…", "TRANSPORTATION", "(v): đi làm quãng đường xa đến… | Đồng nghĩa: travel to work, make a long journey to work | Cụm: commute to work, commute from X to Y, a long commute (n)", "Many people commute long distances to the city centre every day. → Nhiều người đi một quãng đường xa vào trung tâm thành phố mỗi ngày.", 0],
+["Commuter", "TRANSPORTATION", "(n) /kəˈmjuːtə(r)/: người đi làm xa hằng ngày | Đồng nghĩa: daily traveller | Cụm: commuter train / belt / traffic, rail commuters", "Thousands of commuters were delayed by the strike. → Hàng nghìn người đi làm bị chậm trễ vì cuộc đình công.", 0],
+["Craftsmanship", "WORK", "(n) /ˈkrɑːftsmənʃɪp/: tay nghề, kỹ năng thủ công điêu luyện | Đồng nghĩa: skill, artistry, workmanship | Cụm: fine / excellent craftsmanship, traditional craftsmanship", "The furniture is known for its excellent craftsmanship. → Đồ nội thất này nổi tiếng nhờ tay nghề xuất sắc.", 0],
+["Strategic location", "BUSINESS", "vị trí chiến lược | Đồng nghĩa: prime location, key position | Cụm: a strategic location for trade / business", "The port's strategic location makes it ideal for international trade. → Vị trí chiến lược của cảng khiến nó lý tưởng cho thương mại quốc tế.", 0],
+["Value proposition", "BUSINESS", "đề xuất giá trị (lợi ích độc đáo mà sản phẩm mang lại cho khách) | Đồng nghĩa: unique selling point (USP), customer benefit | Cụm: a clear / strong value proposition, define your value proposition", "Our value proposition is high quality at an affordable price. → Đề xuất giá trị của chúng tôi là chất lượng cao với giá phải chăng.", 0],
+["Operational side", "BUSINESS", "mặt vận hành (hoạt động hằng ngày) | Đồng nghĩa: operations, day-to-day running | Cụm: the operational side of the business", "She manages the operational side while her partner handles marketing. → Cô ấy quản lý mặt vận hành còn đối tác lo marketing.", 0],
+["Development plan", "BUSINESS", "kế hoạch phát triển | Đồng nghĩa: growth plan, roadmap | Cụm: draw up / implement a development plan, a five-year development plan", "The company has a ten-year development plan. → Công ty có kế hoạch phát triển mười năm.", 0],
+["Legacy", "BUSINESS", "(n) /ˈleɡəsi/: di sản, những gì để lại | Đồng nghĩa: heritage, inheritance, bequest | Cụm: leave a legacy, a lasting legacy, legacy system (hệ thống cũ còn dùng)", "The founder left a legacy of innovation. → Người sáng lập để lại di sản về sự đổi mới.", 0],
+["Partnership", "BUSINESS", "(n) /ˈpɑːtnəʃɪp/: quan hệ đối tác, công ty hợp danh | Đồng nghĩa: alliance, collaboration, association | Cụm: form / enter into a partnership, in partnership with sb, business partnership", "The two firms formed a partnership to enter the Asian market. → Hai công ty lập quan hệ đối tác để vào thị trường châu Á.", 0],
+["Scale", "BUSINESS", "(n, v) /skeɪl/: quy mô; mở rộng quy mô | Đồng nghĩa: size, extent; (v) expand, grow | Cụm: economies of scale (lợi thế quy mô), on a large scale, scale up / scale down", "The start-up plans to scale up production next year. → Công ty khởi nghiệp dự định nâng quy mô sản xuất vào năm tới.", 0],
+["Financial year", "BUSINESS", "năm tài chính | Đồng nghĩa: fiscal year | Cụm: end of the financial year, in the last financial year", "The company's financial year ends in March. → Năm tài chính của công ty kết thúc vào tháng Ba.", 0],
+["Institutional capital", "BUSINESS", "vốn từ các tổ chức đầu tư (quỹ hưu trí, quỹ đầu tư, ngân hàng...) | Đồng nghĩa: institutional investment, institutional funding | Cụm: attract / raise institutional capital, institutional investors", "The start-up raised institutional capital to expand overseas. → Công ty khởi nghiệp huy động vốn từ các tổ chức để mở rộng ra nước ngoài.", 0],
+["Course correct / course correction", "WORK", "(v / n): điều chỉnh hướng đi khi thấy sai lệch | Đồng nghĩa: change direction, adjust, realign | Cụm: make a course correction, course correct early", "The company had to course correct after weak sales. → Công ty phải điều chỉnh hướng đi sau doanh số yếu.", 0],
+["Navigate tensions", "WORK", "xử lý, vượt qua căng thẳng (trong công việc, quan hệ) | Đồng nghĩa: manage conflict, handle disagreements | Cụm: navigate tensions between teams / partners", "A good leader knows how to navigate tensions within the team. → Người lãnh đạo giỏi biết cách xử lý căng thẳng trong nhóm.", 0],
+["Drive the culture", "WORK", "dẫn dắt, định hình văn hóa (tổ chức) | Đồng nghĩa: shape the culture, lead the culture | Cụm: drive culture change, drive a culture of + N", "Senior managers play a key role in driving the culture. → Quản lý cấp cao đóng vai trò then chốt trong việc định hình văn hóa.", 0],
+["Deliver on the promise", "BUSINESS", "thực hiện đúng lời hứa, đáp ứng kỳ vọng | Đồng nghĩa: keep a promise, live up to expectations, fulfil a commitment | Cụm: deliver on a promise / commitment / expectations", "The brand has delivered on its promise of quality. → Thương hiệu đã thực hiện đúng lời hứa về chất lượng.", 0],
+["Future-proof", "BUSINESS", "(adj, v): được thiết kế để vẫn hiệu quả trong tương lai | Đồng nghĩa: long-lasting, sustainable, adaptable | Cụm: future-proof your business / skills / technology", "Learning digital skills can future-proof your career. → Học kỹ năng số có thể bảo đảm cho sự nghiệp của bạn trong tương lai.", 0],
+["At the forefront", "BUSINESS", "ở vị trí tiên phong | Đồng nghĩa: in the lead, leading the way, at the cutting edge | Cụm: at the forefront of research / innovation / technology", "The firm is at the forefront of renewable energy technology. → Công ty đứng đầu về công nghệ năng lượng tái tạo.", 0],
+["Strategic", "BUSINESS", "(adj) /strəˈtiːdʒɪk/: mang tính chiến lược | Đồng nghĩa: calculated, planned, tactical | Cụm: strategic plan / decision / partnership / move", "The merger was a strategic decision to enter new markets. → Việc sáp nhập là quyết định chiến lược để vào thị trường mới.", 0],
+["Vision", "BUSINESS", "(n) /ˈvɪʒn/: tầm nhìn | Đồng nghĩa: foresight, outlook, long-term goal | Cụm: have a vision, vision statement, a clear vision for the future", "The CEO shared her vision for the next decade. → Tổng giám đốc chia sẻ tầm nhìn cho thập kỷ tới.", 0],
+["Alignment", "BUSINESS", "(n) /əˈlaɪnmənt/: sự đồng bộ, thống nhất (mục tiêu, hướng đi) | Đồng nghĩa: agreement, coordination, consistency | Cụm: in alignment with sth, alignment of goals / strategy", "We need better alignment between sales and marketing. → Chúng ta cần sự đồng bộ tốt hơn giữa bán hàng và marketing.", 0],
+["Framework", "BUSINESS", "(n) /ˈfreɪmwɜːk/: khuôn khổ, khung lý thuyết hoặc quy trình | Đồng nghĩa: structure, system, model | Cụm: legal / conceptual / theoretical framework, provide a framework for", "The report sets out a framework for improving customer service. → Báo cáo đưa ra một khuôn khổ để cải thiện dịch vụ khách hàng.", 0],
+["Systematic", "EDUCATION", "(adj) /ˌsɪstəˈmætɪk/: có hệ thống, bài bản | Đồng nghĩa: methodical, organised, structured | Cụm: systematic approach / review / study / method", "The team took a systematic approach to solving the problem. → Nhóm áp dụng cách tiếp cận có hệ thống để giải quyết vấn đề.", 0],
+["Outcome", "STUDY", "(n) /ˈaʊtkʌm/: kết quả | Đồng nghĩa: result, consequence, effect | Cụm: learning outcomes (kết quả học tập), a positive / successful outcome, the outcome of sth", "The outcome of the meeting was a new pricing policy. → Kết quả cuộc họp là một chính sách giá mới.", 0],
+["Compounding", "ECONOMY", "(n) /kɒmˈpaʊndɪŋ/: hiệu ứng lãi kép, tích lũy dồn lại theo thời gian | Đồng nghĩa: compound growth, accumulation | Cụm: the power of compounding, compound interest", "Compounding makes early savings grow much faster. → Lãi kép khiến khoản tiết kiệm sớm tăng nhanh hơn nhiều.", 0],
+["Long-term perspective", "BUSINESS", "tầm nhìn dài hạn | Đồng nghĩa: long-term view, big-picture thinking | Cụm: take a long-term perspective on sth", "Investors should take a long-term perspective rather than chase quick profits. → Nhà đầu tư nên có tầm nhìn dài hạn thay vì chạy theo lợi nhuận nhanh.", 0],
+["Foster a culture of...", "WORK", "nuôi dưỡng một văn hóa (tổ chức, lớp học) | Đồng nghĩa: promote a culture of, cultivate a culture of, encourage | Cụm: foster a culture of innovation / trust / learning", "Good leaders foster a culture of trust within their teams. → Lãnh đạo giỏi nuôi dưỡng văn hóa tin tưởng trong đội nhóm.", 0],
+["Be well-equipped for", "WORK", "được trang bị tốt (kiến thức, kỹ năng, công cụ) cho việc gì | Đồng nghĩa: be well-prepared for, be ready for | Cụm: be well-equipped to do sth / for a role / for the challenge", "Graduates should be well-equipped for the modern workplace. → Sinh viên tốt nghiệp nên được trang bị tốt cho môi trường làm việc hiện đại.", 0],
+["Navigate the uncertainties", "BUSINESS", "vượt qua những điều bất định | Đồng nghĩa: cope with uncertainty, deal with unpredictable change | Cụm: navigate uncertain times / an uncertain market", "Companies must learn to navigate the uncertainties of the global economy. → Doanh nghiệp phải học cách vượt qua những bất định của kinh tế toàn cầu.", 0],
+["Set a high standard for", "WORK", "đặt ra tiêu chuẩn cao cho (ai, điều gì) | Đồng nghĩa: raise the bar for, set a benchmark for | Cụm: set a high standard for quality / service / performance", "The teacher set a high standard for the whole class. → Giáo viên đặt ra tiêu chuẩn cao cho cả lớp.", 0],
+["Take an active role in", "STUDY", "đóng vai trò chủ động trong | Đồng nghĩa: be actively involved in, play a part in | Cụm: take an active role in a project / discussion / decision", "Students should take an active role in their own learning. → Học sinh nên chủ động trong việc học của mình.", 0],
+["Empowerment", "WORK", "(n) /ɪmˈpaʊəmənt/: sự trao quyền | Đồng nghĩa: authorisation, enablement, autonomy | Cụm: employee empowerment, women's empowerment, empower sb to do sth (v)", "Employee empowerment often leads to higher motivation. → Việc trao quyền cho nhân viên thường dẫn đến động lực cao hơn.", 0],
+["Diversity", "WORK", "(n) /daɪˈvɜːsəti/: sự đa dạng | Đồng nghĩa: variety, range, multiculturalism | Cụm: cultural / workplace diversity, promote diversity, diversity and inclusion", "The company is committed to promoting diversity in the workplace. → Công ty cam kết thúc đẩy sự đa dạng ở nơi làm việc.", 0],
+["Sustainability", "ENVIRONMENT", "(n) /səˌsteɪnəˈbɪləti/: tính bền vững | Đồng nghĩa: long-term viability, eco-friendliness | Cụm: environmental sustainability, sustainability report, corporate sustainability", "Many firms now publish an annual sustainability report. → Nhiều công ty hiện công bố báo cáo bền vững hằng năm.", 0],
+["Innovation", "BUSINESS", "(n) /ˌɪnəˈveɪʃn/: sự đổi mới, sáng tạo | Đồng nghĩa: new idea, breakthrough, invention | Cụm: drive / encourage innovation, technological innovation, innovative (adj)", "Innovation is essential for staying ahead of competitors. → Đổi mới là điều thiết yếu để đi trước đối thủ.", 0],
+["Transformative", "BUSINESS", "(adj) /trænsˈfɔːmətɪv/: mang tính biến đổi sâu sắc | Đồng nghĩa: revolutionary, game-changing, radical | Cụm: transformative effect / change / technology / experience", "Online learning has had a transformative effect on education. → Học trực tuyến có tác động biến đổi sâu sắc lên giáo dục.", 0],
+["Non-monetary", "WORK", "(adj) /nɒnˈmʌnɪtri/: phi tiền tệ, không bằng tiền | Đồng nghĩa: non-financial | Cụm: non- monetary benefits / rewards / incentives", "Flexible hours are a popular non-monetary benefit. → Giờ làm linh hoạt là một phúc lợi phi tiền tệ được ưa chuộng.", 0],
+["Spruik", "BUSINESS", "(v) /spruːk/: quảng bá rầm rộ, chào hàng (tiếng lóng Úc) | Đồng nghĩa: promote, tout, hype | Cụm: spruik a product / a business, spruik for customers", "He was spruiking his new app at the trade fair. → Anh ấy đang quảng bá ứng dụng mới tại hội chợ thương mại.", 0],
+["Afloat", "BUSINESS", "(adj) /əˈfləʊt/: còn trụ được, không phá sản (nghĩa bóng) | Đồng nghĩa: solvent, surviving, in business | Cụm: keep a business afloat, stay afloat, remain afloat", "Government loans helped many firms stay afloat during the crisis. → Các khoản vay của chính phủ giúp nhiều công ty trụ vững trong khủng hoảng.", 0],
+["Privatisation", "ECONOMY", "(n) /ˌpraɪvətaɪˈzeɪʃn/ (Mỹ: privatization): tư nhân hóa | Đồng nghĩa: selling off, denationalisation | Cụm: privatisation of state-owned companies, privatise (v)", "The privatisation of the railways was controversial. → Việc tư nhân hóa đường sắt gây nhiều tranh cãi.", 0],
+["Monetary", "ECONOMY", "(adj) /ˈmʌnɪtri/: thuộc tiền tệ | Đồng nghĩa: financial, fiscal, economic | Cụm: monetary policy (chính sách tiền tệ), monetary value, monetary reward", "Central banks use monetary policy to control inflation. → Ngân hàng trung ương dùng chính sách tiền tệ để kiểm soát lạm phát.", 0],
+["Debtor", "BUSINESS", "(n) /ˈdetə(r)/: con nợ, người mắc nợ | Đồng nghĩa: borrower, person in debt | Cụm: debtor and creditor, a debtor nation", "The bank wrote to the debtors who had missed their payments. → Ngân hàng gửi thư cho những con nợ đã trễ hạn thanh toán.", 0],
+["Quota", "BUSINESS", "(n) /ˈkwəʊtə/: hạn ngạch, chỉ tiêu | Đồng nghĩa: allowance, target, allocation | Cụm: sales quota, meet / fill a quota, import / export quota", "Each salesperson has a monthly sales quota. → Mỗi nhân viên bán hàng có chỉ tiêu doanh số hằng tháng.", 0],
+["Deficit", "ECONOMY", "(n) /ˈdefɪsɪt/: thâm hụt | Đồng nghĩa: shortfall, shortage, loss | Cụm: budget / trade deficit, run a deficit, reduce the deficit", "The country is running a large trade deficit. → Quốc gia này đang bị thâm hụt thương mại lớn.", 0],
+["Subordinate", "WORK", "(n, adj) /səˈbɔːdɪnət/: cấp dưới; thấp hơn về cấp bậc | Đồng nghĩa: junior, underling, inferior | Cụm: subordinate staff, report to a superior / manage subordinates", "A good manager listens to his subordinates. → Người quản lý tốt biết lắng nghe cấp dưới.", 0],
+["Weaver", "WORK", "(n) /ˈwiːvə(r)/: thợ dệt | Đồng nghĩa: textile worker, loom operator | Cụm: silk weaver, handloom weaver, weave (v)", "Many weavers in the village still use traditional looms. → Nhiều thợ dệt trong làng vẫn dùng khung cửi truyền thống.", 0],
+["Dyer", "WORK", "(n) /ˈdaɪə(r)/: thợ nhuộm | Đồng nghĩa: colourer, textile dyer | Cụm: a cloth / textile dyer, natural dyer", "The dyer used natural plants to colour the silk. → Người thợ nhuộm dùng thực vật tự nhiên để nhuộm lụa.", 0],
+["Steward", "WORK", "(n) /ˈstjuːəd/: người phục vụ trên tàu, máy bay, sự kiện; người quản lý tài sản | Đồng nghĩa: attendant, manager, custodian | Cụm: flight steward, a steward at an event, steward of resources", "The steward served drinks to the passengers. → Tiếp viên phục vụ đồ uống cho hành khách.", 0],
+["Inventory", "BUSINESS", "(n) /ˈɪnvəntri/: hàng tồn kho; bản kiểm kê | Đồng nghĩa: stock, goods in store, stocklist | Cụm: manage / check inventory, take inventory, inventory control", "The shop checks its inventory every Friday. → Cửa hàng kiểm kho vào mỗi thứ Sáu.", 0],
+["Retail outlet", "BUSINESS", "điểm bán lẻ, cửa hàng bán lẻ | Đồng nghĩa: shop, store, point of sale | Cụm: open / close a retail outlet, a chain of retail outlets", "The brand has over 200 retail outlets nationwide. → Thương hiệu có hơn 200 điểm bán lẻ trên toàn quốc.", 0],
+["Collateral", "BUSINESS", "(n) /kəˈlætərəl/: tài sản thế chấp, đảm bảo khoản vay | Đồng nghĩa: security, guarantee, pledge | Cụm: provide / put up collateral, use sth as collateral", "He used his house as collateral for the business loan. → Anh ấy dùng ngôi nhà làm tài sản thế chấp cho khoản vay kinh doanh.", 0],
+["Fiduciary", "BUSINESS", "(adj, n) /fɪˈdjuːʃəri/: có tính ủy thác, người được ủy thác quản lý tài sản của người khác | Đồng nghĩa: trustee, custodian; (adj) trust-based | Cụm: fiduciary duty (nghĩa vụ ủy thác), act in a fiduciary capacity", "Company directors have a fiduciary duty to act in the shareholders' interest. → Các giám đốc công ty có nghĩa vụ ủy thác phải hành động vì lợi ích cổ đông.", 0],
+["Appraisal", "WORK", "(n) /əˈpreɪzl/: sự đánh giá (năng lực nhân viên, giá trị tài sản) | Đồng nghĩa: assessment, evaluation, review | Cụm: performance appraisal, annual appraisal, appraise (v)", "Every employee has an appraisal with their manager once a year. → Mỗi nhân viên được quản lý đánh giá năng lực mỗi năm một lần.", 0]
+];
+var K='vuon_330',D='vuon_days',words,days,S={t:'',l:-1,q:''},ICON=['🌱','🌿','🌳'],NAME=['Mới học','Hiểu rồi','Đã dùng'],Q=[],qi=0;
+function ld(k){try{var v=localStorage.getItem(k);return v?JSON.parse(v):null}catch(e){return null}}
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+words=ld(K)||SEED.map(function(a){return{w:a[0],t:a[1],m:a[2],e:a[3],l:a[4]}});days=ld(D)||(function(){var a=[],n=[0,1,4,8,13,19,27,40];n.forEach(function(o){var d=new Date();d.setDate(d.getDate()-o);a.push(ds(d))});return a})();
+function $(i){return document.getElementById(i)}
+function esc(s){return String(s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function ds(d){return d.toISOString().slice(0,10)}
+function mark(){var t=ds(new Date());if(days.indexOf(t)<0){days.push(t);sv(D,days)}}
+function save(){sv(K,words)}
+function streak(){var n=0,d=new Date();if(days.indexOf(ds(d))<0)d.setDate(d.getDate()-1);while(days.indexOf(ds(d))>=0){n++;d.setDate(d.getDate()-1)}return n}
+function toast(m){var t=$('to');t.textContent=m;t.classList.add('on');setTimeout(function(){t.classList.remove('on')},1800)}
+function say(w){try{var u=new SpeechSynthesisUtterance(w.replace(/\(.*?\)|…/g,'').replace(/\//g,' '));u.lang='en-US';u.rate=.9;speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
+function render(){
+ var tp={},c=[0,0,0];words.forEach(function(x){tp[x.t]=(tp[x.t]||0)+1;c[x.l]++});
+ var keys=Object.keys(tp).sort(function(a,b){return tp[b]-tp[a]});
+ var PAL=['#3b7f5b','#74b992','#f2c14e','#e98a5b','#6d9bd1','#b48ad6','#d96c8a','#9aa5a0'],T=words.length||1;
+ $('hs').innerHTML=[[words.length,'cụm đã gieo'],[c[2],'đã dùng khi nói'],[keys.length,'chủ đề'],[streak(),'ngày liên tiếp']].map(function(a){return'<div><b>'+a[0]+'</b><span>'+a[1]+'</span></div>'}).join('');
+ var p2=c[2]*100/T,p1=c[1]*100/T;$('b2').style.width=p2+'%';$('b1').style.width=p1+'%';
+ $('hl').innerHTML=[2,1,0].map(function(l){return'<button data-l="'+l+'" class="'+(S.l==l?'on':'')+'" title="'+NAME[l]+'">'+ICON[l]+' '+c[l]+'</button>'}).join(' · ')+' — '+Math.round(p2)+'% đã dùng được khi nói';
+ var due=c[0]+c[1];$('rv').disabled=!due;$('rv').textContent='▶ Ôn nhanh ('+Math.min(10,due)+' thẻ)';
+ var top=keys.slice(0,7),oth=words.length,acc=0,st=[],lg='';
+ top.forEach(function(k,j){var m=tp[k],p=m/T*100;st.push(PAL[j]+' '+acc+'% '+(acc+p)+'%');acc+=p;oth-=m;lg+='<button class="lgd'+(S.t==k?' on':'')+'" data-t="'+esc(k)+'"><s style="background:'+PAL[j]+'"></s><em>'+esc(k)+'</em><span>'+m+'</span><b>'+Math.round(p)+'%</b></button>'});
+ if(oth>0){st.push(PAL[7]+' '+acc+'% 100%');lg+='<div class="lgd"><s style="background:'+PAL[7]+'"></s><em>Khác ('+(keys.length-top.length)+' chủ đề)</em><span>'+oth+'</span><b>'+Math.round(oth/T*100)+'%</b></div>'}
+ $('donut').style.background=st.length?'conic-gradient('+st.join(',')+')':'var(--bd)';$('dc').innerHTML='<b>'+words.length+'</b><span>cụm từ</span>';$('lgs').innerHTML=lg;
+ $('tc').textContent=keys.length+' chủ đề';
+ $('topics').innerHTML='<button class="chip'+(S.t?'':' on')+'" data-t="">Tất cả<s>'+words.length+'</s></button>'+keys.map(function(k){return'<button class="chip'+(S.t==k?' on':'')+'" data-t="'+esc(k)+'">'+esc(k)+'<s>'+tp[k]+'</s></button>'}).join('');
+ $('tl').innerHTML=keys.map(function(k){return'<option value="'+esc(k)+'">'}).join('');
+ var q=S.q.toLowerCase();
+ var f=words.map(function(x,i){return[x,i]}).filter(function(a){var x=a[0];return(!S.t||x.t==S.t)&&(S.l<0||x.l==S.l)&&(!q||(x.w+' '+x.m+' '+x.e).toLowerCase().indexOf(q)>=0)});
+ $('rt').style.display=S.t?'inline':'none';$('cnt').textContent=f.length+' cụm'+(S.l>=0?' · lọc: '+NAME[S.l]:'');
+ $('list').innerHTML=f.map(function(a){var x=a[0],i=a[1];return'<div class="it"><div class="bd"><b>'+esc(x.w)+'</b><span class="tp">'+esc(x.t)+'</span><p>'+esc(x.m)+'</p>'+(x.e?'<em>“'+esc(x.e)+'”</em>':'')+'</div><div class="acts"><div class="seg">'+[0,1,2].map(function(l){return'<button data-i="'+i+'" data-v="'+l+'" class="'+(x.l==l?'on':'')+'" title="'+NAME[l]+'">'+ICON[l]+'</button>'}).join('')+'</div><div><button class="ic" data-e="'+i+'" title="Sửa">✏️</button><button class="ic" data-s="'+i+'" title="Nghe">🔊</button><button class="ic" data-d="'+i+'" title="Xóa">🗑</button></div></div></div>'}).join('')||'<div class="c mu" style="text-align:center">Chưa có cụm nào khớp. Thử gieo một từ mới ở trên nhé 🌱</div>';
+ var n90=0,n=new Date();for(var i=0;i<90;i++){if(days.indexOf(ds(n))>=0)n90++;n.setDate(n.getDate()-1)}$('d90').textContent=n90+'/90 ngày';
+}
+function card(){var x=Q[qi];$('fcb').classList.remove('fl');$('fw').textContent=x.w;$('fm').textContent=x.m;$('fe').textContent=x.e?'“'+x.e+'”':'';$('rp').textContent='Thẻ '+(qi+1)+'/'+Q.length;$('rg').style.width=(qi/Q.length*100)+'%';say(x.w)}
+document.addEventListener('click',function(e){
+ var b=e.target.closest('button');if(!b)return;var d=b.dataset;
+ if(d.t!==undefined){S.t=(S.t==d.t&&d.t)?'':d.t;render()}
+ else if(d.l!==undefined){S.l=(S.l==+d.l)?-1:+d.l;render()}
+ else if(d.v!==undefined){words[+d.i].l=+d.v;mark();save();render()}
+ else if(d.s!==undefined){say(words[+d.s].w)}
+ else if(d.e!==undefined){openEdit(+d.e)}
+ else if(d.k!==undefined){EL=+d.k;edLv()}
+ else if(d.d!==undefined){if(confirm('Xóa cụm này?')){words.splice(+d.d,1);save();render()}}
+ else if(d.r!==undefined){var x=Q[qi],r=+d.r;if(r>x.l)x.l=r;mark();save();qi++;if(qi>=Q.length){$('mo').classList.remove('on');toast('Hoàn thành phiên ôn 🎉');render()}else card()}
+});
+$('q').addEventListener('input',function(){S.q=this.value;render()});
+$('more').onclick=function(){var d=$('det');d.classList.toggle('on');this.textContent=d.classList.contains('on')?'− Thu gọn':'＋ Thêm chủ đề & câu ví dụ'};
+function add(){var w=$('nw').value.trim();if(!w){$('nw').focus();return}
+ if(words.some(function(x){return x.w.toLowerCase()==w.toLowerCase()})){toast('Từ này đã có trong vườn');return}
+ words.unshift({w:w,m:$('nm').value.trim(),t:($('nt').value.trim()||'OTHER').toUpperCase(),e:$('ne').value.trim(),l:0});
+ ['nw','nm','ne'].forEach(function(i){$(i).value=''});mark();save();render();toast('Đã gieo “'+w+'” 🌱');$('nw').focus()}
+$('add').onclick=add;
+['nw','nm','nt'].forEach(function(i){$(i).addEventListener('keydown',function(e){if(e.key=='Enter')add()})});
+$('imp').onclick=function(){var n=0;$('bulk').value.split('\n').forEach(function(r){var p=r.split(/\t|\|/).map(function(s){return s.trim()});if(!p[0])return;words.push({w:p[0],t:(p[1]||'OTHER').toUpperCase(),m:p[2]||'',e:p[3]||'',l:0});n++});if(n){mark();save();render();$('bulk').value='';toast('Đã nhập '+n+' cụm')}};
+$('exp').onclick=function(){var t=words.map(function(x){return[x.w,x.t,x.m,x.e].join(' | ')}).join('\n');$('bulk').value=t;$('bulk').select();try{navigator.clipboard.writeText(t);toast('Đã sao chép')}catch(e){}};
+$('rv').onclick=function(){Q=words.filter(function(x){return x.l<2}).sort(function(a,b){return a.l-b.l||Math.random()-.5}).slice(0,10);if(!Q.length)return;qi=0;$('mo').classList.add('on');card()};
+$('fcb').onclick=function(){this.classList.toggle('fl')};
+$('cl').onclick=function(){$('mo').classList.remove('on');render()};
+var EI=-1,EL=0;
+function edLv(){$('el').innerHTML=[0,1,2].map(function(l){return'<button data-k="'+l+'" class="'+(EL==l?'on':'')+'" title="'+NAME[l]+'">'+ICON[l]+'</button>'}).join('')}
+function openEdit(i){var x=words[i];EI=i;EL=x.l;$('ew').value=x.w;$('en').value=x.m;$('et').value=x.t;$('ee').value=x.e;edLv();$('em').classList.add('on');setTimeout(function(){$('ew').focus()},50)}
+function closeEdit(){$('em').classList.remove('on');EI=-1}
+$('list').addEventListener('click',function(e){var b=e.target.closest('.bd');if(b&&!e.target.closest('button')){var it=b.parentNode,all=Array.prototype.slice.call($('list').children);var w=b.querySelector('b').textContent;for(var i=0;i<words.length;i++){if(words[i].w==w){openEdit(i);break}}}});
+$('ec').onclick=closeEdit;
+$('es').onclick=function(){var w=$('ew').value.trim();if(!w){$('ew').focus();return}
+ for(var i=0;i<words.length;i++){if(i!=EI&&words[i].w.toLowerCase()==w.toLowerCase()){toast('Đã có từ trùng tên trong vườn');return}}
+ var x=words[EI];x.w=w;x.m=$('en').value.trim();x.t=($('et').value.trim()||'OTHER').toUpperCase();x.e=$('ee').value.trim();x.l=EL;mark();save();closeEdit();render();toast('Đã cập nhật ✓')};
+$('em').addEventListener('keydown',function(e){if(e.key=='Escape')closeEdit()});
+$('rt').onclick=function(){var n=prompt('Tên mới cho chủ đề “'+S.t+'” (áp dụng cho mọi từ trong chủ đề):',S.t);if(!n||!n.trim())return;n=n.trim().toUpperCase();words.forEach(function(x){if(x.t==S.t)x.t=n});S.t=n;save();render();toast('Đã đổi tên chủ đề')};
+render();
+</script></body></html>
